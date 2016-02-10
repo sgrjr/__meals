@@ -1,0 +1,39 @@
+{
+ "id": 44,
+ "title": "Yogurt and Frozen Berries",
+ "imageURL": "",
+ "remoteURL": "http://ndb.nal.usda.gov/ndb/foods/show/105",
+ "servings": {
+  "yield":1,
+  "size":"6 ounce container"
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":104},
+  {"id":"carbohydrates","amount":7.92},
+  {"id":"fat","amount":5.52},
+  {"id":"protein","amount":5.9},
+  {"id":"saturatedfat","amount":3.56},
+  {"id":"sodium","amount":78},
+  {"id":"fiber","amount":0},
+  {"id":"cholesterol","amount":22},
+
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+  
+
+
+ ],
+ 	"tags":["snack"],
+	"ingredients":[
+  "1 cup berries (such as blueberries, raspberries, or blackberries)",
+  "1 cup plain yogurt"
+ ],
+ "preparation": [
+  "Divide the berries and yogurt between two bowls and sprinkle with the almonds (if using). Serve with the eggs."
+ ],
+ "note": "for mixed berris add in::<br>Serving Size 1 cup (140 g)<br>Per Serving % Daily Value*<br>Calories 80<br><br>Calories from Fat 4<br><br>Total Fat 0.5g 1%<br><br>Saturated Fat 0g 0%<br><br>Polyunsaturated Fat 0g<br><br>Monounsaturated Fat 0g<br><br>Cholesterol 0mg 0%<br><br>Sodium 0mg 0%<br><br>Potassium 180mg 5%<br><br>Carbohydrates 17g 6%<br><br>Dietary Fiber 5g 20%<br><br>Sugars 10g<br><br>Protein 1g"
+}

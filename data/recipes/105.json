@@ -1,0 +1,49 @@
+{
+ "id": 105,
+ "title": "Chopped Garden Salad Recipe",
+ "imageURL": "http://hostedmedia.reimanpub.com/TOH/Images/Photos/37/300x300/exps38689_MTC153706C03_05_1b.jpg",
+ "remoteURL": "http://www.tasteofhome.com/recipes/chopped-garden-salad",
+ "servings": {
+  "yield":8,
+  "size":"3/4 Cup"
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":30},
+  {"id":"carbohydrates","amount":7},
+  {"id":"fat","amount":0.2},
+  {"id":"protein","amount":1},
+  {"id":"saturatedfat","amount":0.1},
+  {"id":"sodium","amount":140},
+  {"id":"fiber","amount":1},
+  {"id":"sugars","amount":2.5},
+  {"id":"cholesterol","amount":0},
+	{"id":"potassium","amount":69},
+	{"id":"vitamina","amount":20},
+	{"id":"vitaminb6","amount":0.03},
+	{"id":"vitaminc","amount":1.68},
+	{"id":"calcium","amount":9},
+	{"id":"iron","amount":0.2}  
+ ],
+ 	"tags":[],
+	"ingredients":[
+  {"id":32,"count":3},
+  {"id":22,"count":1},
+  {"id":30,"count":1.5},
+  {"id":23, "count":2},
+  {"id":70,"count":0.75},
+  {"id":20,"count":0.375},
+  {"id":107,"count":2},
+  {"id":108,"count":0.75},
+  {"id":109,"count":0.75},
+  {"id":66,"count":0.25},
+  {"id":57,"count":0.25}
+ ],
+ "preparation": [
+  "Dice the tomatoes, green peppers, cucumbers and onions; place in a ~2-qt. salad bowl.",
+	"In a small saucepan, combine the remaining ingredients. Bring to a boil. Reduce heat; simmer, uncovered, for 1 minute, stirring occasionally.",
+	"Cool slightly. Pour over vegetables and toss to coat.",
+	"Cover and refrigerate overnight. Serve with a slotted spoon."
+ ],
+ "note": "Diabetic Exchange: 1 vegetable"
+}

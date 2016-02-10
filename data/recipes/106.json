@@ -1,0 +1,35 @@
+{
+ "id": 106,
+ "title": "Cottage Cheese",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":"1 cup"
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+ 	"tags":[],
+	"ingredients":[
+  {"id":136,"count":1}
+ ],
+ "preparation": [
+  ""
+ ],
+ "note": ""
+}

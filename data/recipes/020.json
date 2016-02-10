@@ -1,0 +1,66 @@
+{
+	"id": 20,
+	"title": "Garlic Chicken and Zucchini",
+	"imageURL": "http://images.media-allrecipes.com/userphotos/250x250/1020447.jpg",
+	"remoteURL": "http://allrecipes.com/recipe/233021/garlic-chicken-and-zucchini/",
+	"servings": {
+		"yield": 4,
+		"size": ""
+	},
+	"nutrition": [{
+		"id": "calories",
+		"amount": 230
+	}, {
+		"id": "carbohydrates",
+		"amount": 4.1
+	}, {
+		"id": "fat",
+		"amount": 11.1
+	}, {
+		"id": "protein",
+		"amount": 26.5
+	}, {
+		"id": "saturatedfat",
+		"amount": 2.3
+	}, {
+		"id": "sodium",
+		"amount": 104
+	}, {
+		"id": "fiber",
+		"amount": 0.1
+	}, {
+		"id": "cholesterol",
+		"amount": 71
+	}, {
+		"id": "potasssium",
+		"amount": 219
+	}, {
+		"id": "vitamina",
+		"amount": 29
+	}, {
+		"id": "sugars",
+		"amount": 0
+	}, {
+		"id": "calcium",
+		"amount": 43
+	}, {
+		"id": "iron",
+		"amount": 0.7
+	}],
+	"tags":[
+		"dinner"
+		],
+	"ingredients": [
+	{"id":56,"count":4},
+	{"id":49,"count":2},
+	{"id":69,"count":2},
+	{"id":89,"count":1},
+	{"id":64,"count":0.25}
+],
+	"preparation": [
+		"Cut boneless skinless chicken breast halves into bite-sized chunks",
+		"Toss chicken with 1 tablespoon olive oil and garlic in large bowl. Season, if desired, with salt and black pepper. Preheat large nonstick skillet over medium-high heat and cook chicken mixture, stirring occasionally, 6 minutes or until golden brown.* Remove chicken; set aside.",
+		"In same skillet heat remaining oil and cook Recipe Ready Sliced Zucchini, stirring occasionally, 5 minutes or until tender and starting to brown. Add back chicken and toss to heat through. Sprinkle with parmesan cheese and, if desired, chopped parsley. Serve with hot cooked rice."
+	],
+	"note": "Chunks of chicken and zucchini are quickly browned in a skillet, then tossed with grated Parmesan cheese, and served with hot cooked rice for a quick and delicious weeknight meal. Cook chicken to an internal temperature of 165 degrees F as measured with a food thermometer."
+}

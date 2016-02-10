@@ -1,0 +1,36 @@
+{
+ "id": 39,
+ "title": "Baby Carrots (Raw)",
+ "imageURL": "http://www.centuryfarms.net/images/baby-carrots.jpg",
+ "remoteURL": "https://www.fatsecret.com/calories-nutrition/usda/baby-carrots",
+ "servings": {
+  "yield":1,
+  "size":"5 baby carrots"
+  },
+ 	"tags":[
+		"snack"
+		],
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+ "ingredients": [
+  "5 raw baby carrots"
+ ],
+ "preparation": [
+  "rinse before eating"
+ ],
+ "note": " x's 5:<br>  <br>  Nutrition Facts<br>Serving Size 1 medium<br> <br>Amount Per Serving<br>Calories from Fat 0Calories 4<br> <br>% Daily Values*<br>Total Fat 0.01g 0%<br>  Saturated Fat 0.002g 0%<br>  Polyunsaturated Fat 0.006g  <br>  Monounsaturated Fat 0.001g  <br>Cholesterol 0mg 0%<br>Sodium 8mg 0%<br>Potassium 24mg  <br>Total Carbohydrate 0.82g 0%<br>  Dietary Fiber 0.2g 1%<br>  Sugars 0.48g  <br>Protein 0.06g  <br> <br>Vitamin A 28%  Vitamin C 1%<br>Calcium 0%  Iron 0%"
+}

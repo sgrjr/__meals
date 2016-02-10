@@ -1,0 +1,50 @@
+{
+	"id": 11,
+	"title": "Chicken Caesar Salad",
+	"imageURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/11/grilled-chicken-salad-ck-x.jpg?itok=3ewN3aPr",
+	"remoteURL": "http://www.myrecipes.com/recipe/grilled-chicken-caesar-salad-0",
+	"servings": {
+		"yield":1,
+		"size":"2 cups + 4 0z chicken"
+		},
+	
+	"nutrition": [
+		{"id":"calories","amount":272},
+		{"id":"carbohydrates","amount":12.6},
+		{"id":"fat","amount":10.4},
+		{"id":"protein","amount":31.1},
+		{"id":"saturatedfat","amount":2.3},
+		{"id":"sodium","amount":322},
+		{"id":"fiber","amount":2.1},
+		{"id":"cholesterol","amount":72},
+		{"id":"calcium","amount":104},
+		{"id":"iron","amount":2.2}
+	],
+	"tags":[
+		"dinner",
+		"lunch"
+	],
+"ingredients": [
+	{"id":41,"count":1},
+	{"id":54,"count":1},
+	{"id":55,"count":1},
+	{"id":56,"count":0.33},
+	{"id":57,"count":1},
+	{"id":58,"count":0.5},
+	{"id":59,"count":0.5},
+	{"id":60,"count":0.5},
+	{"id":61,"count":0.25},
+	{"id":62,"count":1.5},
+	{"id":63,"count":0.5},
+	{"id":64 ,"count":0.125}
+],
+	"preparation": [
+		"1. Preheat oven to 400°.",
+		"2 ounces French bread, cut into 1/2-inch cubes (about 2 cups)",
+		"Spread bread cubes in a single layer on a baking sheet. Bake at 400° for 9 minutes or until lightly toasted.",
+		"Heat a grill pan over high heat. Coat the pan with cooking spray. Sprinkle chicken with 1/4 teaspoon pepper. Add chicken to pan, and cook 3 1/2 minutes on each side or until done. Remove from pan; let stand 5 minutes. Cut chicken into slices.",
+		"chop the lettuce",
+		"Combine remaining 1/4 teaspoon pepper, vinegar, and next 4 ingredients (through anchovy paste) in a large bowl, stirring with a whisk. Add romaine and radicchio to bowl; toss well to coat. Divide lettuce and chicken evenly among each of 4 plates. Top each serving with 1/2 cup croutons and 1 tablespoon cheese."
+	],
+	"note": "serving halfed, redo nutrition to reflect"
+}

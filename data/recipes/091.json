@@ -1,0 +1,40 @@
+{
+ "id": 91,
+ "title": "Carrots /w Humus",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+	"yield":1,
+	"size":""
+  },
+"nutrition": [
+	{"id":"calories","amount":105},
+	{"id":"carbohydrates","amount":12.2},
+	{"id":"fat","amount":5.1},
+	{"id":"protein","amount":0.6},
+	{"id":"saturatedfat","amount":1},
+	{"id":"sodium","amount":208},
+	{"id":"fiber","amount":4.9},
+	{"id":"sugars","amount":0},
+	{"id":"cholesterol","amount":0},
+	{"id":"potasssium","amount":245},
+	{"id":"calcium","amount":40},
+	{"id":"iron","amount":0.72},
+	{"id":"sugar","amount":4.8},
+	{"id":"vitamina","amount":14000},
+	{"id":"vitaminc","amount":2.4},
+	{"id":"vitamink","amount":8},
+	{"id":"vitaminb6","amount":0.12},
+	{"id":"folate","amount":24},
+	{"id":"zinc","amount":0.3},
+	{"id":"copper","amount":0.12},
+	{"id":"manganese","amount":0.16}
+],
+ 	"tags":["snack"],
+	"ingredients":[
+		{"id":45,"count":0.2},
+		{"id":40,"count":1}
+],
+ "preparation": [],
+ "note": ""
+}

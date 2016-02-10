@@ -1,0 +1,31 @@
+{
+ "id": 93,
+ "title": "Dannon Light &amp; Fit Greek Strawberry Yogurt",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":"5.3 oz. container"
+  }, 
+"nutrition": [
+  {"id":"calories","amount":80},
+  {"id":"carbohydrates","amount":8},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":12},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":55},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":6},
+  {"id":"cholesterol","amount":10},
+  {"id":"potasssium","amount":175},
+  {"id":"calcium","amount":150}
+ ],
+ 	"tags":["snack"],
+"ingredients":[
+	{"id":5,"count":1}
+ ],
+ "preparation": [
+  ""
+ ],
+ "note": ""
+}

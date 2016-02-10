@@ -1,0 +1,13 @@
+add 'tags' array to recipe jsons for stuff like "breakfast", "lunch", "dinner", "snack", etc.
+create function to programatically create and export a "breakfast list" a "Lunch List.json" etc.
+
+Improve ingredient list to better workwith "shopping list" props: description, qty/how much?
+IMprove recipe to include a 1)short/publicity title & a more descriptive/practical title (i.e, California Burger vs. Turkey Burger with sweet potato fries) ???maybe???
+
+create shopping list for week 1
+create shopping list for week 2
+create shopping list for week 3
+create shopping list for week 4
+create shopping list for week 5
+
+remove clients initials from their meal plan ??? seems redundant / becomes theirs by being put in their folder

@@ -1,0 +1,57 @@
+{
+	"id": 29,
+	"title": "Healthy Bean Soup With Kale",
+	"imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/55/79/6/picfXuZIH.jpg",
+	"remoteURL": "http://www.food.com/recipe/healthy-bean-soup-with-kale-55796",
+	"servings": {
+		"yield":8,
+		"size":"518 grams"
+		},
+	
+	"nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}		
+	],
+ 	"tags":["dinner"],
+"ingredients": [
+	{"id":58,"count":1},
+	{"id":69,"count":8},
+	{"id":23,"count":1},
+	{"id":90,"count":4},
+	{"id":91,"count":4},
+	{"id":92,"count":2},
+	{"id":67,"count":4},
+	{"id":93,"count":1},
+	{"id":94,"count":2},
+	{"id":66,"count":1},
+	{"id":57,"count":2},
+	{"id":73,"count":8},
+	{"id":64,"count":0.5}
+],
+	"preparation": [
+		"In a large pot, heat olive oil.",
+		"Add garlic and onion; saute until soft and the onion is transparent.",
+		"Wash the kale, leaving small droplets of water. Saute, stirring, until wilted and a lovely emerald green, about 15 minutes.",
+		"Add 3 cups of the broth, reserving 1 cup, 2 cups of the beans, reserving 1 cup, all of the carrots, tomatoes, herbs, salt and pepper.",
+		"Simmer 5 minutes.",
+		"In a blender or food processor, mix the reserved beans and broth until smooth.",
+		"Stir into the soup to thicken it nicely.",
+		"Simmer 15 more minutes.",
+		"Ladle into bowls; sprinkle with chopped parsley and shredded parmesan.",
+		"Serve with a nice loaf of crusty bread to soak up all the yummy broth!",
+		"For Vegetarian use the vegetable broth."
+	],
+	"note": "We've all heard how anti-oxidants fight cancer, save eyesight, and prevent clogged arteries. Turns out lutein, a delicious 7 mg dose of which is supplied with each serving of this recipe, is even more beneficial than beta carotene. It delays lung aging and combats arthritis to boot! ////AMOUNT PER SERVING% DAILY VALUECalories 214.6 Calories from Fat 34 16%Total Fat 3.8 g 5%Saturated Fat 0.7 g 3%Cholesterol 0 mg 0%Sodium 786 mg 32%Total Carbohydrate 36 g 12%Dietary Fiber 11 g 44%Sugars 10.6 g 42%Protein 11.6 g 23%"
+}

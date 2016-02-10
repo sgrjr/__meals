@@ -1,0 +1,35 @@
+{
+ "id": 94,
+ "title": "Mini Blueberry Muffins",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":""
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+"tags":["snack"],
+"ingredients":[
+  {"id":125,"count":1}
+ ],
+ "preparation": [
+  ""
+ ],
+ "note": "Serving Size47 g<br>Servings per Container5.00<br>Amount Per Serving<br>Calories 180.00    Calories from Fat 70.00<br>% Daily Value*<br>Total Fat8.00g12%<br>Saturated Fat1.50g8%<br>Trans Fat0.00g0%<br>Cholesterol25.00mg8%<br>Sodium190.00mg8%<br>Total Carbohydrate25.00g8%<br>Dietary Fiber0.00g0%<br>Sugars14.00g0%<br>Protein2.00g0%<br>Vitamin A 0% Vitamin C 0% Calcium 2% Iron 0% Vitamin D 0% Vitamin E 0% Vitamin K 0% Thiamin 0% Riboflavin 0% Niacin 0% Vitamin B6 0% Folate 0% Vitamin B12 0% Biotin 0% Panthothenate 0% Phosphorus 0% Iodine 0% Magnesium 0% Zinc 0% Selenum 0% Copper 0% Manganese 0% Chromium 0% Molybdenum 0% Chloride 0% Potassium 0%"
+}

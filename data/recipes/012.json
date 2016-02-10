@@ -1,0 +1,47 @@
+{
+	"id": 12,
+	"title": "Italian Sub in a Wrap",
+	"imageURL": "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/2/4/1/RX-FNM_030111-Weeknight-Dinners-025_s4x3.jpg.rend.sni18col.jpeg",
+	"remoteURL": "http://www.foodnetwork.com/recipes/food-network-kitchens/italian-subs-recipe.html",
+	"servings": {
+		"yield":1,
+		"size":"1 wrap"
+		},
+	
+	"nutrition": [
+	  {"id":"calories","amount":460},
+	  {"id":"carbohydrates","amount":60},
+	  {"id":"fat","amount":14},
+	  {"id":"protein","amount":24},
+	  {"id":"saturatedfat","amount":4.5},
+	  {"id":"sodium","amount":1420},
+	  {"id":"fiber","amount":7},
+	  {"id":"cholesterol","amount":45},
+	  {"id":"sugars","amount":33},
+	  {"id":"vitamina","amount":2000},
+	  {"id":"vitaminc","amount":48},
+	  {"id":"calcium","amount":600},
+	  {"id":"iron","amount":2.7}
+	],
+
+"tags":["dinner","lunch"],
+	
+"ingredients": [
+	{"id":15,"count":1},
+	{"id":12 ,"count":2},
+	{"id":32,"count":0.25},
+	{"id":52,"count":3},
+	{"id":16 ,"count":1},
+	{"id":98,"count":3},
+	{"id":22,"count":0.125},
+	{"id":76,"count":0.125},
+	{"id":118,"count":1},
+	{"id":29,"count":2}
+],
+	
+"preparation": [
+	"Layer tortilla with lettuce, tomatoes, turkey, Singles, ham and peppers; roll up.",
+	"Cut wrap in half. Serve with dressing for dipping. Enjoy with a pear and milk."
+	],
+	"note": ""
+}
