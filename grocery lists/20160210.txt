@@ -1,0 +1,74 @@
+Grocery List:
+
+BS, JH, NS, AW:
+
+=========================
+PRODUCE
+=========================
+18	x's Bananas
+2	x's BAg of Baby Carrots
+1	x's Granny Smith Apples Bag
+4	x's Green Pepper
+4	x's Onion
+2	x's Lettuce head
+10	x's Cucumbers
+4 x's Sweet Potato
+1 x's Kale Bag
+8 x's Zucchini
+4 x's pear
+		
+=========================
+DELI
+=========================
+4	x's Pizza Dough
+1	x's Turkey Pepperoni Bag
+3	x's Turkey Sliced lb.
+20	x's Wraps
+3	x's lb. Sliced Cheese
+20	x's Tortilla Shells
+.5 x's Pepper jack cheese sliced
+		
+=========================
+DRY
+=========================
+1 x's Box of Cheerios
+2 	x's Loaf Wheat Bread
+16	x's Raisin Boxes
+.5	x's Jelly Jar
+8	x's Tunafish Can
+1	x's Box of Triscuits
+1	x's Box of Blueberry Pancake Mix
+8	x's Wheat english Muffin
+1	x's Black olives can
+4 x's cannellini beans can
+2 x's beef broth can
+.5 x's Peanut Butter
+1 x's Bag of Pretzels	
+1 x's Bread Crumbs
+
+=========================
+MEAT
+=========================
+8	x's Turkey Hot Dog Link
+8	x's Pork Chop
+4	x's Ground Turkey lb.
+12	x's Chicken Breasts
+
+=========================
+DAIRY
+=========================
+3	x's Dozen Eggs
+8	x's Flavored Yogurt Cup
+2	x's Shredded Cheese Pizza Bag
+16	x's Individual Cottage Cheese
+2	x's Humus
+2 x's Half Gallon Milk
+1 x's Lactosse Free Milk
+
+=========================
+FROZEN
+=========================
+2	x's Bag Mixed Berry
+2	x's Bag of Baby Carrots
+4	x's Pie crust for Quiche
+1	x's Bag of Peas

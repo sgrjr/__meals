@@ -253,7 +253,7 @@ function app(recipes, groceries, notes) { // load json file using jquery ajax
 	
 		/////end
 		table = table + "</tbody></table>";
-		/*
+		/*HERE*/
 			//Grocery List Begin
 		
 			table = table + "<div class='top-of-page'></div><h1>Grocery Check-list</h1><p><strong>Instructions: </strong> Take inventory of what is at the house already before shopping.</p>";
@@ -394,7 +394,7 @@ lists_names.map(function(meal){
 				}
 			}
 		});
-		*/
+		/*HERE*/
 });
 
 	
