@@ -1,0 +1,55 @@
+{
+ "id": 82,
+ "title": "Pork Roast  /w Apple Salad",
+ "imageURL": "",
+ "remoteURL": "http://www.foodnetwork.com/recipes/bobby-flay/pork-roast-with-caramelized-apple-salad-with-maytag-blue-and-spicy-orange-vinaigrette-recipe.html?oc=linkback",
+ "servings": {
+  "yield":2,
+  "size":""
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+ 	"tags":["dinner"],
+
+"ingredients": [
+	{"id":58,"count":2},
+	{"id":65,"count":12},
+	{"id":66,"count":0.25},
+	{"id":57,"count":0.5},
+	{"id":67,"count":1},
+	{"id":23,"count":0.33},
+	{"id":68,"count":0.33},
+	{"id":84,"count":1},
+	{"id":70,"count":3},
+	{"id":71,"count":1},
+	{"id":72,"count":1},
+	{"id":73,"count":2},
+	{"id":57,"count":1.5},
+	{"id":75,"count":1},
+	{"id":76,"count":0.5},
+	{"id":77,"count":1},
+	{"id":78,"count":0.5},
+	{"id":12,"count":2},
+	{"id":80,"count":2}
+
+],
+ "preparation": [
+  "For the Roast: Preheat oven to 325 degrees F. Heat oil in a large Dutch oven over medium-high heat. Season the pork with salt and pepper and sear well on all sides. Drain off the fat, and add the remaining ingredients to the pot. Place in the oven and cook until the internal temperature of the meat registers 150 degrees F, about 2 hours. Remove the meat to a plate and remove the vegetables and herbs with a slotted spoon. Add more water if needed. Bring the cooking liquid to a boil and reduce by half. Whisk in the butter and season with salt and pepper to taste. | For the Apple Salad: Heat 3/4 cup of the Spicy Orange Vinaigrette in a medium saute pan over medium high heat. Add the apples, cut-side down and saute until golden brown, turn over and saute until just cooked through, 1 to 2 minutes. Place the watercress and frisee in a medium bowl and toss with a few tablespoons of the remaining Spicy Orange Vinaigrette, season with salt and pepper and divide among 4 plates. Arrange 2 apple quarters on each plate, garnish with walnuts and blue cheese and drizzle with some of the remaining vinaigrette."
+ ],
+ "note": ""
+}

@@ -1,0 +1,42 @@
+{
+	"id": 4,
+	"title": "Spinach, Egg and Cheese Breakfast Wrap",
+	"imageURL": "http://img2.timeinc.net/health/img/recipes/recipes/hl/spinach-egg-breakfast-wrap-x.jpg",
+	"remoteURL": "http://www.health.com/health/recipe/0,,00420000004306,00.html",
+	"servings": {"yield":1,"size":"1 wrap"},
+	"nutrition": [	
+		{"id": "calories","amount":366},
+		{"id": "carbohydrates","amount": 30},
+		{"id": "fat","amount": 22},
+		{"id": "protein","amount": 22},
+		{"id": "saturatedfat","amount": 8},
+		{"id": "sodium","amount": 666},
+		{"id": "fiber","amount": 7},
+		{"id": "cholesterol","amount": 242},
+		{"id": "sugar","amount": 1}
+	],
+	"tags":[
+		"breakfast",
+		"lunch",
+		"dinner"
+		],
+	"ingredients": [
+		{"id":54,"count":2},
+		{"id":12,"count":0.25},
+		{"id":3,"count":2},
+		{"id":66,"count":0.125},
+		{"id":57,"count":0.125},
+		{"id":7,"count":1},
+		{"id":85,"count":1},
+		{"id":151,"count":1}
+	],
+	"preparation": [
+		"Chop baby spinach",
+		"Spray a nonstick skillet over medium-high heat.",
+		"Add spinach and cook, stirring, until wilted, 2 minutes.",
+		"Whisk together eggs and egg whites in a small bowl. Add eggs to skillet and cook, stirring, until cooked through, 3–4 minutes. Season with salt and pepper.",
+		"Place 1/4 of egg mixture in the center of each tortilla, and sprinkle with 1 ounce cheese.",
+		"Top with 4 slices avocado and fold, burrito-style.  Slice in half and serve."
+	],
+	"note": ""
+}

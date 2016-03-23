@@ -1,0 +1,12 @@
+{
+	"initials":"NS",
+	"dateRange": "3-6-16 to 3-12-16",
+	"dates": ["3/6","3/7","3/8","3/9","3/10","3/11","3/12"],
+	"meals":[
+		{"title":"Breakfast", "meals":[52,33,48,33,50,33,51]},
+		{"title":"Lunch", "meals":[3,77,65,77,78,77,11]},
+		{"title":"Dinner", "meals":[0,1,4,86,26,85,88]}
+		],
+	"snacks":[101,42,103,36],
+	"notes":"on thursday supper, change 26 for 87 once he get EBT card & put 101 back on list"
+}

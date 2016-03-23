@@ -1,0 +1,18 @@
+{
+	"consumer":"BS",
+	"notes":[
+		{"id":"1", "date":20160112, "note":"Eats cheerios but only dry and as snack"},
+		{"id":"2", "date":20160112, "note":"Is allergic to ALL nuts .. all nuts are off limits"},
+		{"id":"3", "date":20160112, "note":"Does not eat yogurt [ we are goin go try smoothies]"},
+		{"id":"4", "date":20160202, "note":"Does not like brussel sprouts"},
+		{"id":"5", "date":20160202, "note":"Does not like tomatoes very much."},
+		{"id":"6", "date":20160206, "note":"Completed first 5 week rotation of meals on Feb. 6, 2016 and it went generally well."},
+		{"id":"7", "date":20160322, "note":"Will Eat snap peas - cucumbers - onions"},
+		{"id":"8", "date":20160322, "note":"Does not eat yogurt"},
+		{"id":"9", "date":20160322, "note":"Does not like tuna fish"},
+		{"id":"10", "date":20160317, "note":"Stated he does not like eggs."},
+		{"id":"11", "date":20160317, "note":"Does not like tomatoes"}
+	]
+}
+
+

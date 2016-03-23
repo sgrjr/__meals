@@ -1,0 +1,46 @@
+{
+	"id": 22,
+	"title": "Spinach Quiche",
+	"imageURL": "http://images.media-allrecipes.com/userphotos/720x405/451789.jpg",
+	"remoteURL": "http://allrecipes.com/recipe/20876/crustless-spinach-quiche/?internalSource=staff%20pick&referringId=16793&referringContentType=global%20nav",
+	"servings": {
+		"yield":6,
+		"size":"1 of 6 pieces"
+		},
+	
+	"nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}	
+	],
+ 	"tags":["dinner"],
+	"ingredients":[
+		{"id":49,"count":1},
+		{"id":152,"count":1},
+		{"id":12,"count":2},
+		{"id":3,"count":5},
+		{"id":7,"count":24},
+		{"id":66 ,"count":0.25},
+		{"id":57,"count":0.25},
+		{"id":34,"count":0.5}
+	],
+	"preparation": [
+		"Chop the onions and spinach (if not already chopped)",
+		"Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9 inch pie pan.",
+		"Heat oil in a large skillet over medium-high heat. Add onions and cook, stirring occasionally, until onions are soft. Stir in spinach and continue cooking until excess moisture has evaporated.",
+		"In a large bowl, combine eggs, cheese, salt and pepper. Add spinach mixture and stir to blend. Scoop into prepared pie pan.",
+		"Bake in preheated oven until eggs have set, about 30 minutes. Let cool for 10 minutes before serving."
+	],
+	"note": "Aluminum foil can be used to keep food moist, cook it evenly, and make clean-up easier. /// 1 Serving <br>Servings Per Recipe: 6<br>Amount Per Serving<br>Calories: 309<br>Calories from Fat: 213<br>% Daily Value *<br>Total Fat: 23.7<br>Saturated Fat: 12.5<br>Cholesterol: 209<br>Sodium: 546<br>Total Carbohydrates: 4.8<br>Sugars: 2.1<br>Dietary Fiber: 1.6<br>Protein: 20.4<br>Vitamin A - IU: 6326<br>Vitamin C: 4<br>Calcium: 493<br>Iron: 2<br>Potassium: 326<br>Thiamin: < 1<br>Niacin Equivalents: 5<br>Vitamin B6: < 1<br>Magnesium: 58<br>Folate: 98"
+}

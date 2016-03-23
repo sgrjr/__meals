@@ -1,0 +1,56 @@
+{
+	"id": 15,
+	"title": "Chicken-and-Veggie Stir-fry /w Brown Rice /w Salad",
+	"imageURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/sl/12/03/chicken-veggie-stirfry-sl-x.jpg?itok=7J3XbsNH",
+	"remoteURL": "http://www.myrecipes.com/recipe/chicken-veggie-stir-fry",
+	"servings": {
+		"yield":1,
+		"size":""
+		},
+	
+	"nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+	],
+		"tags":[
+		"dinner"
+		],
+	"ingredients": [
+		{"id": 56, "count": 1},
+		{"id": 66, "count": 0.25},
+		{"id": 49, "count":3},
+		{"id": 122, "count": 0.5},
+		{"id": 91, "count":0.25 },
+		{"id": 22, "count":0.25 },
+		{"id":138, "count": 0.25 },
+		{"id": 23, "count": 0.25},
+		{"id": 139, "count": 2 },
+		{"id": 140, "count": 1},
+		{"id": 127, "count": 1},
+		{"id": 119, "count":1}
+	],
+	"preparation": [
+		"1/8 pound Broccolini, cut into 1-inch pieces",
+		"1/4 pound skinned and boned chicken breasts, cut into thin strips",
+		"1/4 red bell pepper, cut into thin strips",
+		"1/4 small yellow squash, thinly sliced into half moons",
+		"1/8 cup sliced green onions",
+		"Sprinkle chicken with salt; toss with 2 teaspoons cornstarch.",
+		"Stir-fry chicken in hot oil in a large skillet or wok over medium-high heat 5 to 6 minutes or until golden brown and done. Transfer to a plate, using a slotted spoon; keep warm. Add Broccolini and 1/4 cup broth; cover and cook 1 to 2 minutes or until crisp-tender. Transfer to plate with chicken, using slotted spoon.",
+		"Add 1 Tbsp. oil to skillet. Sauté bell pepper and next 2 ingredients in hot oil 2 minutes or until crisp-tender.",
+		"Whisk together 2 tsp. cornstarch and remaining broth until cornstarch dissolves. Add broth mixture, chicken, and Broccolini (with any accumulated juices) to bell pepper mixture in skillet. Cook, stirring often, 1 minute or until liquid thickens. Stir in lime juice and next 2 ingredients. Serve over hot cooked rice."
+	],
+	"note": "DIVDE FOLLOWING BY 1/4: Total Fat 18g<br>Sat Fat 1g<br>Total Carb 18g<br>Fiber 3g<br>Sugars 3g<br>Cholesterol 73mg<br>Sodium 728mg<br>Protein 28g -- added brown rice adn sald update nutrition and ingredient lists"
+}
