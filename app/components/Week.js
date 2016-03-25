@@ -6,35 +6,13 @@ import MealListed from './MealListed';
 
 class Week extends React.Component {
 	
-	componentWillMount(){
-		
-		let date_id = this.props.week;
-		let data_file = 'data/'+this.props.consumer+'/'+date_id+'.json';
-		let excercise_file = 'data/'+this.props.consumer+'/et_'+this.props.excerciseId+'.json';
-		
-		this.state = {
-			excerciseTips : {},
-			date_id : date_id,
-			data_file : data_file,
-			excercise_file : excercise_file,
-			data : JSON.parse($.ajax({type: "GET", url: data_file, async: false}).responseText),
-			lists : {
-				excerciseTips : JSON.parse($.ajax({type: "GET", url: excercise_file, async: false}).responseText).data
-				}
-		};
-	}
-	
   render() {
-	  
-	var date_id = this.state.week;
-	var data_file = this.state.data_file;
-	var excercise_file = this.state.excercise_file;
-	var data = this.state.data;
-	var lists = this.state.lists;
-	var daysOfWeek = this.props.daysOfWeek;
+
+	var data = this.props.data;
+	var daysOfWeek = this.props.daysOfWeek;	
+	var recipes = this.props.recipes;			
 	var day = 0;
-	var recipes = this.props.recipes;
-	
+
     return (
 		<div>
 			<div className='top-of-page'></div>
@@ -45,7 +23,7 @@ class Week extends React.Component {
 						<td colSpan='2' id='wfsbox'>Woodford's Family Services<br /> Residential Program<br /><br /> <strong>Weekly Menu Plan Sheet</strong></td>
 						<td colSpan='4'>
 						
-						<h1>data.initials's Plan</h1>
+						<h1>{data.initials}'s Plan</h1>
 						<h2>Week of: {data.dateRange}</h2>
 						
 						</td>
@@ -67,14 +45,12 @@ class Week extends React.Component {
 
 			{data.meals.map(function(m){
 				
-				<tr key={m.title}>
-					<td className='middlized'>m.title</td>
-				
-					{m.meals.map(function(bf){
-						return <MealListed key={bf} id={bf} recipes={recipes} />;
+				return (<tr key={m.title}>
+					<td className='middlized'>{m.title}</td>
+					{m.meals.map(function(mealId){
+						return <MealListed key={Math.random()} meal={recipes[mealId]} />;
 					})}
-
-			</tr>
+			</tr>);
 			})}
 	
 		<tr>

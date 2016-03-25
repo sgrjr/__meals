@@ -18,7 +18,7 @@ class RequestService {
 	}
 	
 	getConsumerPlan(initials, week) {
-		let URL = AppConstants.BASE_URL+"/data/"+initials+"/"+week+".json";
+		let URL = AppConstants.BASE_URL+"data/"+initials+"/"+week+".json";
 		return this.get(URL);
 	}
 	

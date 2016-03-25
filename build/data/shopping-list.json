@@ -157,7 +157,18 @@
 	{"id":156,"unit":"","description":"eating out","category":"z_prepared"},
 	{"id":157,"unit":"ounces","description":"White Sauce Can or Jar","category":"d_can"},
 	{"id":158,"unit":"1 serving","description":"Apple Sauce","category":"d_can"},
-	{"id":159,"unit":"","description":"","category":"a_produce"},
-	{"id":160,"unit":"","description":""}
+	{"id":159,"unit":"whole","description":"white potato","category":"a_produce"},
+	{"id":160,"unit":"pounds","description":"fish","category":"f_meat"},
+	{"id":161,"unit":"ounces","description":"evaporated milk","category":"d_can"},
+	{"id":162,"unit":"cups","description":"mixed vegetables","category":"l_freezer"},
+	{"id":163,"unit":"ounces","description":"liver","category":"f_meat"},
+	{"id":164,"unit":"","description":"naan flatbread or lavash","category":""},
+	{"id":165,"unit":"","description":"","category":""},
+	{"id":166,"unit":"","description":"","category":""},
+	{"id":167,"unit":"","description":"","category":""},
+	{"id":168,"unit":"","description":"","category":""},
+	{"id":169,"unit":"","description":"","category":""},
+	{"id":170,"unit":"","description":"","category":""},
+	{"id":171,"unit":"","description":"","category":""}
 ]
 }

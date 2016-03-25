@@ -23,7 +23,9 @@ class MealPlanStore extends BaseStore {
 			this._url = 'data/recipes.json';
 			this._urlGrocery = 'data/shopping-list.json';
 			this._urlNotes = 'data/'+this._consumer+'/notes.json';
-		
+			
+			this._plans = [];
+			
 		this.meta = {
 			name : "MealPlanStore"
 		};
@@ -32,12 +34,31 @@ class MealPlanStore extends BaseStore {
 	
 	 _registerToActions(payload) {
  
-		  switch(paylod.type){			  
+		  switch(payload.type){			  
+			
+			case ActionTypes.GET_RECIPES:
+				this.logChange(payload);
+				this._recipes = payload.action.body;
+				this.emitChange();
+			  break;
 			
 			case ActionTypes.GET_CONSUMER_PLAN:
 				this.logChange(payload);
-				this._consumer = payload.action.consumer;
+				this._consumer = payload.action.body.initials;
 				this._list_weeks = payload.action.weeks;
+				this._plans.push(payload.action.body);
+				this.emitChange();
+			  break;
+			
+			case ActionTypes.GET_GROCERIES:
+				this.logChange(payload);
+				this._groceries = payload.action.body.data;
+				this.emitChange();
+			  break;
+			
+			case ActionTypes.GET_CONSUMER_NOTES:
+				this.logChange(payload);
+				this._notes = payload.action.body;
 				this.emitChange();
 			  break;
 			  
@@ -61,7 +82,8 @@ class MealPlanStore extends BaseStore {
 			notes : this._notes,
 			url : this._url,
 			urlGrocery : this._urlGrocery,
-			urlNotes : this._urlNotes
+			urlNotes : this._urlNotes,
+			plans: this._plans
 		};
 	}
 	

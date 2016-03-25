@@ -9,6 +9,6 @@ export default (
 	<Route path="/" component={App}>
 		<IndexRoute component={App}></IndexRoute>
 		<Route path=":consumer/:weeks" component={App}/>
-		<Route path="*" component={NoMatch}/>
+		<Route path="*" component={App}/>
 	</Route>
 );

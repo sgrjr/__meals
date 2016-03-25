@@ -26,10 +26,12 @@
  ],
  	"tags":["dinner"],
 	"ingredients":[
-  "Liver and Onion /w Chopped Spinach"
+		{"id":163,"count":4},
+		{"id":152,"count":0.5},
+		{"id":12,"count":2}
  ],
  "preparation": [
-  ""
+  "Chop the spinach"
  ],
  "note": ""
 }

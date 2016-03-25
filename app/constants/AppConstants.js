@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost/';
+const BASE_URL = 'http://localhost:33/';
 
 const AppConstants = {
 	BASE_URL: BASE_URL

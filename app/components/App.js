@@ -1,31 +1,21 @@
 import React from 'react';
 import Note from './Note';
-import MealPlan from './MealPlan';
+import Week from './Week';
+import ShoppingList from './ShoppingList';
 import $ from 'jquery';
 import Helpers from '../helpers/helpers.js';
 import MealPlanStore from '../stores/MealPlanStore';
 import MealPlanActionCreators from '../actions/MealPlanActionCreators';
 
-Array.prototype.sortOn = function(key){
-    this.sort(function(a, b){
-        if(a[key] < b[key]){
-            return -1;
-        }else if(a[key] > b[key]){
-            return 1;
-        }
-        return 0;
-    });
-}
-
 export default class App extends React.Component {
-	
+ 
 	componentWillMount(){
 		
 		if(this.props.params.consumer){
-			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.weeks.split('%20'));
+			MealPlanActionCreators.getConsumerNotes(this.props.params.consumer);
+			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.weeks.split('-'));
 		}else{
-			MealPlanActionCreators.emptyVerse();
-			MealPlanActionCreators.getChapterByReference(this.props.params.book, this.props.params.chapter);
+			
 		}
 		
 		this.state = this._getState();
@@ -56,18 +46,34 @@ export default class App extends React.Component {
 	}
 	
 	_getState() {
-		
-		//let consumerInitials = Helpers.getQueryVariable('consumer');
-		//let list_weeks = Helpers.getQueryVariable('weeks').split('%20');
 		return MealPlanStore.getAll();
 	}
 	
   render() {
+	
+	const list_weeks = this.state.listWeeks;
+	const excerciseId = this.state.excerciseId;
+	const daysOfWeek = this.state.daysOfWeek;
+	const recipes = this.state.recipes;
+	
     return (
 	<div>
 		<Note consumer={this.state.consumer} notes={this.state.notes}/>
-		<MealPlan recipes={this.state.recipes} daysOfWeek={this.state.daysOfWeek} listWeeks={this.state.list_weeks} consumer={this.state.consumer} excerciseId={this.state.excerciseId} />
-		{this.state.table}
+		
+		{this.state.plans.map(function(p){
+	
+			const consumer = p.initials;
+
+			return (<Week 
+				recipes={recipes} 
+				key={p.dateRange} 
+				data={p}
+				daysOfWeek={daysOfWeek} 
+				/>);
+		})}
+		
+		<ShoppingList consumer={this.state.consumer} plans={this.state.plans} recipes={this.state.recipes} groceries={this.state.groceries}/>
+		
 	</div>
 	);
   }
@@ -91,6 +97,14 @@ app(state) {
 		var url= state.url;
 		var urlGrocery = state.urlGrocery;
 		var urlNotes = state.urlNotes;		
+		
+		var recipesUsed = [];
+		var generatedList = [];
+		var ctr1 = 0;
+		var txt;
+		var mealLists = Helpers.getOnlyThisMealRecipes(recipes);
+	
+/*			
 		
 		var recipesUsed = [];
 		var generatedList = [];
@@ -168,6 +182,8 @@ app(state) {
 		recipesUsed = [];//resetting to empty at end of use
 
 	});
+	
+	
 	
 	//Excercise Ideas List Begin
 	table = table + "<div class='top-of-page'></div><h1>Excercise Tips</h1>";

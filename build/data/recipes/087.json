@@ -1,11 +1,11 @@
 {
  "id": 87,
  "title": "Fish Chowder  /w salad",
- "imageURL": "",
- "remoteURL": "",
+ "imageURL": "http://images.media-allrecipes.com/userphotos/250x250/928001.jpg",
+ "remoteURL": "http://allrecipes.com/recipe/12732/fish-chowder/",
  "servings": {
-  "yield":1,
-  "size":""
+  "yield":4,
+  "size":"1/4th of Meal"
   },
  
  "nutrition": [
@@ -26,10 +26,26 @@
  ],
  	"tags":["dinner"],
 	"ingredients":[
-  "Fish Chowder  /w salad"
+		{"id":75,"count":1},
+		{"id":23,"count":1},
+		{"id":130,"count":3}, 
+		{"id":68,"count":0.5},
+		{"id":91,"count":2},
+		{"id":159 ,"count":2},
+		{"id":160,"count":1},
+		{"id":66 ,"count":0.125},
+		{"id":57,"count":0.125},
+		{"id":115,"count":0.25},
+		{"id":161,"count":6}
  ],
  "preparation": [
-  ""
+	"Prep Time: 30 m, Cook Time: 30 m, Read in: 1 hr",
+	"Chop onion, slice mushrooms, chop celery, dice potatos, dice fish into 1/2 inch cubes",
+	"In a large stockpot, melt 2 tablespoons butter over medium heat. Saute onions, mushrooms and celery in butter until tender.",
+	"A 1/8 teaspoon Old Bay Seasoning is great if you have any handy.",
+	"Add chicken stock and potatoes; simmer for 10 minutes.",
+	"Add fish, and simmer another 10 minutes.",
+	"Season to taste with Old Bay seasoning, salt and pepper. Mix together clam juice and flour until smooth; stir into soup. Remove from heat, and stir in evaporated milk. Serve."
  ],
- "note": ""
+ "note": "Nutritional Information | Fish Chowder | 1 Serving  | Servings Per Recipe: 8 | Amount Per Serving | Calories: 356 | Calories from Fat: 101 | % Daily Value * | Total Fat: 11.3 | Saturated Fat: 6.4 | Cholesterol: 77 | Sodium: 618 | Total Carbohydrates: 33.7 | ** Sugars: 12.3 | Dietary Fiber: 2.8 | Protein: 29.8 | ** Vitamin A - IU: 368 | ** Vitamin C: 23 | ** Calcium: 284 | ** Iron: 2 | Potassium: 1150 | ** Thiamin: < 1 | ** Niacin Equivalents: 10 | ** Vitamin B6: < 1 | ** Magnesium: 75 | ** Folate: 52"
 }

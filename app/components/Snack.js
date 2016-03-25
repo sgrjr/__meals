@@ -3,25 +3,13 @@ import Helpers from '../helpers/helpers.js';
 
 class Snack extends React.Component {
 	
-	componentWillMount(){
-		this.state = this._getState();
-	}
-	
-	_getState() {
-		return {
-			snack: Helpers.getFromJSON(this.props.recipes, this.props.snack)
-			};
-	}
-	
   render() {
-	console.log(this.state.snack);
-	if(!this.state.snack){
-		console.log('wrong');
-	}
+	
+	const snack = Helpers.getFromJSON(this.props.recipes, this.props.snack);
 	
     return (
 		<div style={{float:'left'}}>			
-			<span className='snack-spacer'></span>{"[#" + this.state.id + "]"} {this.state.title}
+			<span className='snack-spacer'></span>{"[#" + snack.id + "]"} {snack.title}
 		</div>
 	)
   }
