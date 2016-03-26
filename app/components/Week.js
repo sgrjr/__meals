@@ -6,17 +6,25 @@ import MealListed from './MealListed';
 
 class Week extends React.Component {
 	
+	componentWillMount(){
+		this.state = this._getState();
+	}
+	
+	_getState() {
+		return {
+			day:0
+		};
+	}
+	
   render() {
 
 	var data = this.props.data;
 	var daysOfWeek = this.props.daysOfWeek;	
 	var recipes = this.props.recipes;			
-	var day = 0;
-
+	let day = this.state.day;
+	
     return (
-		<div>
-			<div className='top-of-page'></div>
-			
+		<div className='top-of-page'>			
 			<table>
 				<tbody>
 					<tr>
@@ -37,9 +45,8 @@ class Week extends React.Component {
 					<tr>
 						<th>Day<span></span>Date</th>
 			
-						{data.dates.map(function(d){
-							return <th key={d}>{daysOfWeek[day]}<span></span>{d}</th>;
-							day++;
+						{data.dates.map(function(d,index){
+							return <th key={d}>{daysOfWeek[index]}<span></span>{d}</th>;
 						})}
 					</tr>
 
@@ -48,7 +55,14 @@ class Week extends React.Component {
 				return (<tr key={m.title}>
 					<td className='middlized'>{m.title}</td>
 					{m.meals.map(function(mealId){
-						return <MealListed key={Math.random()} meal={recipes[mealId]} />;
+						
+						let meal = Helpers.getFromJSON(recipes,mealId);
+						
+						if(meal){
+							 return <MealListed key={Math.random()} meal={meal} />;
+						}else{	
+							console.log(meal,mealId,recipes);
+						}
 					})}
 			</tr>);
 			})}
@@ -109,7 +123,7 @@ class Week extends React.Component {
 		</tbody>
 	</table>
 </div>
-	)
+	);
   }
  
 }

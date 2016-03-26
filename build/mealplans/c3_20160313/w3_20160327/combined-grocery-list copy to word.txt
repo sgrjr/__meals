@@ -1,0 +1,89 @@
+UP COMBINED  Grocery Check-list 20160327
+
+Instructions: Take inventory of what is at the house already before shopping.
+
+A_PRODUCE
+
+_______ 4.0 x's 1 banana |1 Medium (7 inch to 7 1/2 inch) Banana
+_______ 1.5 x's 1 clove |fresh garlic
+_______ 0.5 x's whole avocado |avocado
+_______ 0.5 x's 1 lime |a Lime
+_______ 5.0 x's oranges |medium orange
+_______ 1.0 x's cup |radicchio lettuce
+_______ 12.0 x's ounces |broccoli slaw mix
+_______ 3.0 x's ounces |cremini / baby portobello mushroom
+_______ 17.0 x's cup |romaine lettuce
+_______ 1.2 x's 1 pepper |a Bell Pepper
+_______ 2.9 x's one onion |a Small Onion
+_______ 0.5 x's 1 whole carrot |whole carrot
+_______ 3.4 x's 1 cucumber |1 medium cucumber
+_______ 34.0 x's tomatoes |cherry tomatoes
+_______ 2.0 x's tomatoes |medium tomatoes
+_______ 0.3 x's 1 head |iceberg lettuce
+_______ 2.0 x's 1 sprig |fresh cilantro leaf
+_______ 2.0 x's 1 apple |granny smith apple
+_______ 4.5 x's cups |baby carrots
+B_DELI
+
+_______ 2.0 x's 1 slice |deli ham
+_______ 2.0 x's slices |deli roast beef
+_______ 2.0 x's 1 slice |deli turkey
+C_DRY
+
+_______ 3.0 x's 100 calorie carton |carton of raisins
+_______ 2.0 x's 1 loaf |16 oz. French Bread loaf
+_______ 2.0 x's 10 pieces |Mini Pretzels
+_______ 0.5 x's cups |brown rice
+_______ 22.0 x's slices |whole wheat bread
+_______ 6.0 x's wraps |7-9 inch Whole Wheat Wraps
+_______ 4.0 x's 1 muffin |whole-wheat english muffin
+_______ 0.5 x's 4 muffins |Little Bites blueberry muffin
+_______ 1.0 x's cup |Krusteaz Blueberry Pancake Mix
+_______ 6.0 x's cups |cheerios
+_______ 2.0 x's one pizza |Pizza Dough/Crust
+D_CAN
+
+_______ 1.0 x's |Hannaford Pizza Sauce (14 Oz.)
+E_CONDIMENT/SEASON
+
+_______ 1.0 x's tablespoons |toasted sesame oil
+_______ 1.8 x's teaspoons |salt
+_______ 1.0 x's teaspoons |minced garlic
+_______ 20.0 x's tablespoons |creamy peanut butter (no salt added)
+_______ 0.5 x's tablespoons |chili powder
+_______ 1.0 x's tablespoons |lower sodium soy sauce
+_______ 1.0 x's teaspoons |garlic powder
+_______ 1.5 x's tablespoons |rice vinegar
+_______ 0.5 x's tablespoons |powdered ginger
+_______ 12.0 x's tablespoons |jelly
+_______ 1.0 x's cups |vinaigrette
+_______ 0.5 x's teaspoons |white sugar
+_______ 9.3 x's tablespoons |low-fat mayonnaise
+_______ 2.0 x's tablespoons |olive oil
+_______ 1.0 x's teaspoons |sesame seeds
+_______ 10.0 x's 1/4 second spray |hannaford original cooking spray /w canola oil (753 sprays per can
+_______ 0.5 x's teaspoon |1/2 teaspoon anchovy paste
+_______ 5.0 x's teaspoon |Dijon mustard
+_______ 6.5 x's teaspoons |black pepper
+F_MEAT
+
+_______ 1.0 x's 1 pound |Ground Turkey 1 lb.
+_______ 12.0 x's slices |turkey bacon
+_______ 2.0 x's 1 hotdog |Turkey/Chicken Hot Dog
+_______ 4.7 x's 4-ounce |skinless, boneless chicken breast
+_______ 0.5 x's a package |a package of Turkey Pepperoni
+G_DRINK
+
+_______ 0.7 x's cup |water
+J_DAIRY
+
+_______ 2.0 x's container |5.3 ounce container of cottage cheese
+_______ 6.0 x's 1/2 cup |1% Lowfat Milk
+_______ 16.0 x's ounces |shredded cheese
+_______ 0.3 x's cup |grated fresh Parmesan
+_______ 6.0 x's 1 egg |eggs
+L_FREEZER
+
+_______ 1.0 x's cups |frozen corn
+_______ 5.0 x's cups |frozen peas
+_______ 2.0 x's cups |frozen broccoli

@@ -53,4 +53,4 @@ export default {
 		
 		return meals;	
 	}
-}
+};

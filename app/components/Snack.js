@@ -11,7 +11,7 @@ class Snack extends React.Component {
 		<div style={{float:'left'}}>			
 			<span className='snack-spacer'></span>{"[#" + snack.id + "]"} {snack.title}
 		</div>
-	)
+	);
   }
  
 }

@@ -12,7 +12,7 @@ class Note extends React.Component {
 			}
 			return 0;
 		});
-	}
+	};
 	
 	const s = '';
 	let notes = this.props.notes.notes;
@@ -21,7 +21,7 @@ class Note extends React.Component {
 		notes = [];
 	}
 	
-	const blanks = ['1','2','3','4','5','6','7','8'];
+	const blanks = ['1','2','3','4','5'];
 	/*
 	notes.sort(function(a, b){
 		return a.date-b.date;
@@ -32,7 +32,7 @@ class Note extends React.Component {
 	
     return (
 		<div>
-			<h1>Meal and Excercise Related Feedback for {consumerInitials}</h1>
+			<h1>Meal and Excercise Related Feedback for {consumerInitials} </h1>
 	
 			<p>Please note any (big or small) adjustments, suggestions, ideas relating to the meal and excercise plan. Please note in particular any preferences and interests voiced by the {consumerInitials}</p>
 	
@@ -63,7 +63,7 @@ class Note extends React.Component {
 				</tbody>
 			</table>
 		</div>
-	)
+	);
   }
   
 }

@@ -15,7 +15,7 @@ class MealListed extends React.Component {
 				</span>
 			[ { meal.id }  ] {" " + meal.title } 
 			</td>
-	)
+	);
   }
  
 }

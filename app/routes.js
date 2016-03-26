@@ -2,13 +2,18 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router';
 
-// Main component
-import App from './components/App';
+// Main Component
+import MainApp from './components/App';
+
+// Page Components
+import ConsumerMealPlanPage from './components/ConsumerMealPlanPage';
+import DefaultPage from './components/DefaultPage';
+import MealListPage from './components/MealListPage';
 
 export default (
-	<Route path="/" component={App}>
-		<IndexRoute component={App}></IndexRoute>
-		<Route path=":consumer/:weeks" component={App}/>
-		<Route path="*" component={App}/>
+	<Route path="/" component={MainApp} >
+		<IndexRoute component={DefaultPage} />
+		<Route path="/meals" component={MealListPage} />
+		<Route path="/plans/:consumer/:weeks" component={ConsumerMealPlanPage} />
 	</Route>
 );

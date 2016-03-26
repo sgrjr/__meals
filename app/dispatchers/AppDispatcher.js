@@ -31,5 +31,5 @@ export function dispatchAsync(promise, types, action = {}) {
   promise.then(
     (body) => dispatch(success, { action, body }),
     (error) => dispatch(failure, { action, error })
-  )
+  );
 }

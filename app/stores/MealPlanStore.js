@@ -88,11 +88,11 @@ class MealPlanStore extends BaseStore {
 	}
 	
 //GETTERS:	
-	/*
-	get books(){
-		return this._books;
+
+	get recipes(){
+		return this._recipes;
 	}
-*/
+
 }
 
 export default new MealPlanStore();

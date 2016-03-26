@@ -24,19 +24,19 @@
 		"dinner"
 		],
 	"ingredients": [
-		{"id":grape tomatoes,"count":1 cup},
-		{"id": artichoke hearts, drained and quartered,"count":7 ounce can},
-		{"id":extra-virgin olive oil, divided,"count":1 teaspoon},
-		{"id":1 naan flatbreads or lavash,"count":1},
-		{"id":0.5 tablespoon finely grated fresh Parmesan cheese,"count":0.5},
-		{"id":1 cups arugula,"count":1},
-		{"id":1/8 cup shaved Parmesan cheese,"count":0.125},
-		{"id":0.5 tablespoon fresh lemon juice,"count":0.5},
-		{"id":1/8 teaspoon salt,"count":0.125},
-		{"id":1/8 teaspoon freshly ground black pepper,"count":0.125}
+		{"id":31,"count":8},
+		{"id": 165,"count":7},
+		{"id":58,"count":0.33},
+		{"id":164,"count":1},
+		{"id":64,"count":0.125},
+		{"id":166,"count":1},
+		{"id":140,"count":0.5},
+		{"id":66,"count":0.125},
+		{"id":57,"count":0.125}
 	],
 	"preparation": [
 		"Preheat broiler.",
+		"artichoke hearts, drained and quartered",
 		"Toss tomatoes and artichokes with 1 teaspoon oil, and arrange in a shallow baking pan. Broil, stirring occasionally, about 4 minutes or until charred and tomatoes are wilted.",
 		"Preheat oven to 450 degrees . Top each flatbread with half of tomatoes and artichokes. Sprinkle with grated Parmesan; bake in bottom third of oven 10 minutes or until golden brown and crisp.",
 		"While the pizza is baking, toss the arugula with shaved Parmesan, lemon juice, remaining 1 teaspoon olive oil, salt, and pepper.",

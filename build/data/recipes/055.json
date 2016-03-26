@@ -25,9 +25,7 @@
   {"id":"iron","amount":0}
  ],
  	"tags":["breakfast"],
-	"ingredients":[
-  ""
- ],
+	"ingredients":[],
  "preparation": [
   ""
  ],

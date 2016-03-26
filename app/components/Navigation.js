@@ -34,7 +34,7 @@ class Navigation extends React.Component {
 				</div>
 			</div>
 		</div>
-    )
+    );
   }
   
 	searchChangeHandler(event) {
