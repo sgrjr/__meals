@@ -1,65 +1,76 @@
-import { dispatch, dispatchAsync } from '../dispatchers/AppDispatcher';
-import ActionTypes from '../constants/ActionTypes';
-import RequestService from '../services/RequestService';
+'use strict';
 
-String.prototype.ucfirst = function()
-{
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _AppDispatcher = require('../dispatchers/AppDispatcher');
+
+var _ActionTypes = require('../constants/ActionTypes');
+
+var _ActionTypes2 = _interopRequireDefault(_ActionTypes);
+
+var _RequestService = require('../services/RequestService');
+
+var _RequestService2 = _interopRequireDefault(_RequestService);
+
+function _interopRequireDefault(obj) {
+	return obj && obj.__esModule ? obj : { default: obj };
+}
+
+String.prototype.ucfirst = function () {
 	return this.charAt(0).toUpperCase() + this.substr(1);
 };
 
-export default {
-  
+exports.default = {
+
 	/*
-	keepOnlyThisChapter: (data) => {
-		dispatch({type: ActionTypes.KEEP_AND_CLEAR_CHAPTER, action: data}); 
+ keepOnlyThisChapter: (data) => {
+ 	dispatch({type: ActionTypes.KEEP_AND_CLEAR_CHAPTER, action: data}); 
+ },
+ */
+
+	getGroceries: function getGroceries(groceriesURL) {
+
+		var promise = _RequestService2.default.getGroceries(groceriesURL);
+
+		(0, _AppDispatcher.dispatchAsync)(promise, {
+			request: _ActionTypes2.default.FETCH_GROCERIES,
+			success: _ActionTypes2.default.GET_GROCERIES,
+			failure: _ActionTypes2.default.FETCH_GROCERIES_FAILED
+		}, { groceriesURL: groceriesURL });
 	},
-	*/
-	
-	getGroceries: (groceriesURL) => {
-		
-		let promise = RequestService.getGroceries(groceriesURL);
-	
-		dispatchAsync(promise, {
-		  request: ActionTypes.FETCH_GROCERIES,
-		  success: ActionTypes.GET_GROCERIES,
-		  failure: ActionTypes.FETCH_GROCERIES_FAILED
-		}, { groceriesURL });
-		
+	getConsumerNotes: function getConsumerNotes(initials) {
+
+		var promise = _RequestService2.default.getConsumerNotes(initials);
+
+		(0, _AppDispatcher.dispatchAsync)(promise, {
+			request: _ActionTypes2.default.FETCH_CONSUMER_NOTES,
+			success: _ActionTypes2.default.GET_CONSUMER_NOTES,
+			failure: _ActionTypes2.default.FETCH_CONSUMER_NOTES_FAILED
+		}, { initials: initials });
 	},
-	getConsumerNotes: (initials) => {
-		
-		let promise = RequestService.getConsumerNotes(initials);
-	
-		dispatchAsync(promise, {
-		  request: ActionTypes.FETCH_CONSUMER_NOTES,
-		  success: ActionTypes.GET_CONSUMER_NOTES,
-		  failure: ActionTypes.FETCH_CONSUMER_NOTES_FAILED
-		}, { initials });
-		
+	getRecipes: function getRecipes(url) {
+
+		var promise = _RequestService2.default.getRecipes(url);
+
+		(0, _AppDispatcher.dispatchAsync)(promise, {
+			request: _ActionTypes2.default.FETCH_RECIPES,
+			success: _ActionTypes2.default.GET_RECIPES,
+			failure: _ActionTypes2.default.FETCH_RECIPES_FAILED
+		}, { url: url });
 	},
-	getRecipes: (url) => {
-		
-		let promise = RequestService.getRecipes(url);
-	
-		dispatchAsync(promise, {
-		  request: ActionTypes.FETCH_RECIPES,
-		  success: ActionTypes.GET_RECIPES,
-		  failure: ActionTypes.FETCH_RECIPES_FAILED
-		}, { url });
-		
-	},
-	getConsumerPlan: (consumer, weeks) => {
-		
-		for(var i=0; i<weeks.length; i++){
-			let promise = RequestService.getConsumerPlan(consumer, weeks[i]);
-		
-			dispatchAsync(promise, {
-			  request: ActionTypes.FETCH_CONSUMER_PLAN,
-			  success: ActionTypes.GET_CONSUMER_PLAN,
-			  failure: ActionTypes.FETCH_CONSUMER_PLAN_FAILED
-			}, { consumer, weeks });
+	getConsumerPlan: function getConsumerPlan(consumer, weeks) {
+
+		for (var i = 0; i < weeks.length; i++) {
+			var promise = _RequestService2.default.getConsumerPlan(consumer, weeks[i]);
+
+			(0, _AppDispatcher.dispatchAsync)(promise, {
+				request: _ActionTypes2.default.FETCH_CONSUMER_PLAN,
+				success: _ActionTypes2.default.GET_CONSUMER_PLAN,
+				failure: _ActionTypes2.default.FETCH_CONSUMER_PLAN_FAILED
+			}, { consumer: consumer, weeks: weeks });
 		}
-		
-	},
-	
+	}
+
 };

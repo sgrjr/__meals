@@ -4,7 +4,7 @@
 	"imageURL": "http://img2.timeinc.net/health/img/recipes/recipes/hl/tomato-artichoke-pizza-hl-1981666-x.jpg",
 	"remoteURL": "http://www.health.com/health/recipe/0,,10000001981666,00.html",
 	"servings": {
-		"yield":2,
+		"yield":4,
 		"size":"1/2 flatbread and 1/2 cup arugula"
 		},
 	
@@ -24,19 +24,19 @@
 		"dinner"
 		],
 	"ingredients": [
-		{"id":31,"count":8},
-		{"id": 165,"count":7},
-		{"id":58,"count":0.33},
-		{"id":164,"count":1},
-		{"id":64,"count":0.125},
-		{"id":166,"count":1},
-		{"id":140,"count":0.5},
-		{"id":66,"count":0.125},
-		{"id":57,"count":0.125}
+		"1 pint grape tomatoes (2 cups)",
+		"1 (13 3/4-ounce) can artichoke hearts, drained and quartered",
+		"2 teaspoons extra-virgin olive oil, divided",
+		"2 naan flatbreads or lavash",
+		"1 tablespoon finely grated fresh Parmesan cheese",
+		"2 cups arugula",
+		"1/4 cup shaved Parmesan cheese",
+		"1 tablespoon fresh lemon juice",
+		"1/4 teaspoon salt",
+		"1/4 teaspoon freshly ground black pepper"
 	],
 	"preparation": [
 		"Preheat broiler.",
-		"artichoke hearts, drained and quartered",
 		"Toss tomatoes and artichokes with 1 teaspoon oil, and arrange in a shallow baking pan. Broil, stirring occasionally, about 4 minutes or until charred and tomatoes are wilted.",
 		"Preheat oven to 450 degrees . Top each flatbread with half of tomatoes and artichokes. Sprinkle with grated Parmesan; bake in bottom third of oven 10 minutes or until golden brown and crisp.",
 		"While the pizza is baking, toss the arugula with shaved Parmesan, lemon juice, remaining 1 teaspoon olive oil, salt, and pepper.",

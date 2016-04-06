@@ -1,4 +1,6 @@
-{"data":[{"id":0,"unit":"","description":"","category":""},{"id":1,"unit":"bars","description":"Granola/Snack Bar (healthy less than 100 cal.)","category":"snack"},
+{"data":[
+	{"id":0,"unit":"","description":"","category":""},
+	{"id":1,"unit":"bars","description":"Granola/Snack Bar (healthy less than 100 cal.)","category":"snack"},
 	{"id":2,"unit":"1 banana","description":"1 Medium (7 inch to 7 1/2 inch) Banana","category":"a_produce"},
 	{"id":3,"unit":"1 egg","description":"eggs","category":"j_dairy"},
 	{"id":4,"unit":"cups","description":"Raisin Bran","category":"c_dry"},
@@ -7,7 +9,6 @@
 	{"id":7,"unit":"ounces","description":"shredded cheese","category":"j_dairy"},
 	{"id":8,"unit":"tablespoons","description":"jelly","category":"e_condiment/season"},
 	{"id":9,"unit":"1 apple","description":"medium sized red apple","category":"a_produce"},
-	{"id":10,"unit":"","description":"","category":""},
 	{"id":11,"unit":"cups","description":"cheerios","category":"c_dry"},
 	{"id":12,"unit":"cups","description":"fresh baby spinach","category":"a_produce"},
 	{"id":13,"unit":"100 calorie carton","description":"carton of raisins","category":"c_dry"},
@@ -156,18 +157,7 @@
 	{"id":156,"unit":"","description":"eating out","category":"z_prepared"},
 	{"id":157,"unit":"ounces","description":"White Sauce Can or Jar","category":"d_can"},
 	{"id":158,"unit":"1 serving","description":"Apple Sauce","category":"d_can"},
-	{"id":159,"unit":"whole","description":"white potato","category":"a_produce"},
-	{"id":160,"unit":"pounds","description":"fish","category":"f_meat"},
-	{"id":161,"unit":"ounces","description":"evaporated milk","category":"d_can"},
-	{"id":162,"unit":"cups","description":"mixed vegetables","category":"l_freezer"},
-	{"id":163,"unit":"ounces","description":"liver","category":"f_meat"},
-	{"id":164,"unit":"whole","description":"naan flatbread or lavash","category":"c_dry"},
-	{"id":165,"unit":"ounces","description":"artichoke hearts","category":"d_can"},
-	{"id":166,"unit":"cups","description":"arugula","category":"a_produce"},
-	{"id":167,"unit":"","description":"","category":""},
-	{"id":168,"unit":"","description":"","category":""},
-	{"id":169,"unit":"","description":"","category":""},
-	{"id":170,"unit":"","description":"","category":""},
-	{"id":171,"unit":"","description":"","category":""}
+	{"id":159,"unit":"","description":"","category":"a_produce"},
+	{"id":160,"unit":"","description":""}
 ]
 }

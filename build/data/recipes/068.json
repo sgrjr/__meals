@@ -25,7 +25,9 @@
   {"id":"iron","amount":0}
  ],
  	"tags":[],
-	"ingredients":[],
+	"ingredients":[
+  ""
+ ],
  "preparation": [
   ""
  ],

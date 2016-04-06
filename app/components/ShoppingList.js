@@ -71,7 +71,9 @@ class ShoppingList extends React.Component {
 	shoppingList.sortOn('category');
 	var consumer = this.props.consumer.toUpperCase();		
 	var h2 = '';
-
+	
+	var listStyle = {listStyleType: "none"};
+	
     return (
 		<div>
 			<div className='top-of-page'></div>
@@ -82,12 +84,12 @@ class ShoppingList extends React.Component {
 			<p><strong>Instructions: </strong> Take inventory of what is at the house already before shopping.</p>
 			
 			{shoppingList.map(function(item){
-				if(item){
+				if(item && item.category !== 'g_drink'){
 					if(item.category !== h2){
 						h2 = item.category;
-						return <div key={item.id}><h2>{item.category.toUpperCase()}</h2><li key={item.id}><GroceryItem item={item} /></li></div>;
+						return <div key={item.id}><h2>{item.category.toUpperCase()}</h2><li style={listStyle}  key={item.id}><GroceryItem item={item} /></li></div>;
 					}else{
-						return <li key={item.id}><GroceryItem item={item} /></li>;
+						return <li style={listStyle} key={item.id}><GroceryItem item={item} /></li>;
 					}
 				}
 				

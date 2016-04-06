@@ -9,8 +9,7 @@ class GroceryItem extends React.Component {
 
     return (
 		<div>_______ <span style={{fontSize:'2rem'}}>{count[0]}</span>
-				<sup style={{fontSize:'1.4rem'}}>.{count[1]} </sup>
-		x's {i.unit} | 
+				<sup style={{fontSize:'1.4rem'}}>.{count[1]} </sup> {i.unit} | 
 		<strong>{i.description}</strong>
 		</div>
 	);
