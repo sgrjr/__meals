@@ -1,0 +1,50 @@
+{
+	"initials":"NS",
+	"weeks":[
+		{
+		"dateRange": "Jan 3 to Jan 9",
+		"meals":[
+			{"title":"Breakfast", "meals":[4,33,34,33,49,33,33]},
+			{"title":"Lunch", "meals":[58,59,60,59,60,61,60]},
+			{"title":"Dinner", "meals":[0,1,79,19,80,22,7]}
+			],
+		"snacks":[43,89,45,90,36]
+		},		
+		{
+		"dateRange": "Jan 10 to Jan 16",
+		"meals":[
+			{"title":"Breakfast", "meals":[8,47,54,47,48,47,56]},
+			{"title":"Lunch", "meals":[12,63,11,63,63,64,65]},
+			{"title":"Dinner", "meals":[0,3,81,20,82,29,12]}
+			],
+		"snacks":[31,91,92,93,36]
+		},		
+		{
+		"dateRange": "Jan 17 to Jan 23",
+		"meals":[
+			{"title":"Breakfast", "meals":[9,33,57,33,35,33,51]},
+			{"title":"Lunch", "meals":[7,70,71,72,71,73,74]},
+			{"title":"Dinner", "meals":[0,11,14,83,5,83,16]}
+			],
+		"snacks":[95,96,97,36]
+		},		
+		{
+		"dateRange": "Jan 24 to Jan 30",
+		"meals":[
+			{"title":"Breakfast", "meals":[25,47,34,47,49,47,56]},
+			{"title":"Lunch", "meals":[4,75,60,75,76,75,65]},
+			{"title":"Dinner", "meals":[0,15,26,21,6,84,17]}
+			],
+		"snacks":[98,99,46,100,36]
+		},		
+		{
+		"dateRange": "Jan 31 to Feb 6",
+		"meals":[
+			{"title":"Breakfast", "meals":[52,33,48,33,50,33,51]},
+			{"title":"Lunch", "meals":[3,77,65,77,78,77,11]},
+			{"title":"Dinner", "meals":[0,1,85,86,4,87,88]}
+			],
+		"snacks":[101,102,42,103,36]
+		}
+	]
+}

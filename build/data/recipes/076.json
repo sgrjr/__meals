@@ -26,7 +26,10 @@
  ],
  	"tags":["lunch"],
 	"ingredients":[
-  "Turkey-Spinach Wraps  | pretzels"
+  {"id":52,"count":2},
+  {"id":12,"count":0.5},
+  {"id":36,"count":1},
+  {"id":15,"count":1}
  ],
  "preparation": [
   ""

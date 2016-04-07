@@ -3,7 +3,7 @@
 	"title": "Chicken Breast With Mixed Vegetables",
 	"imageURL": "http://img2.timeinc.net/health/img/recipes/_Chicken-Breast-Shaved-brussels-sprouts-XL.jpg",
 	"remoteURL": "http://www.health.com/health/recipe/0,,50400000120339,00.html",
-	"servings": {"yield":4,"size":"1 1/2 cups slaw and 4 ounces chicken"},
+	"servings": {"yield":1,"size":"1 1/2 cups slaw and 4 ounces chicken"},
 	"nutrition": [
 		{"id": "calories","amount":309},
 		{"id": "carbohydrates","amount":10},
@@ -16,23 +16,22 @@
 		{"id": "calcium","amount": 141},
 		{"id": "iron","amount": 2}
 	],
-		"tags":[
-		"dinner"
-		],
+		"tags":["dinner"],
 
 	"ingredients": [
-		"2 (8-ounce) boneless, skinless chicken breast halves",
-		"3/4 teaspoon salt, divided",
-		"2 broccoli stems",
-		"2 tablespoons olive oil",
-		"2 tablespoons fresh lemon juice",
-		"1/4 teaspoon freshly ground black pepper",
-		"3 cups mixed vegetables",
-		"2 celery stalks, thinly sliced",
-		"1/4 cup fresh flat-leaf parsley, coarsely chopped",
-		"1 ounce Parmesan cheese, coarsely grated"
+		{"id":56,"count":1},
+		{"id":66,"count":0.25},
+		{"id":122,"count":0.75},
+		{"id":49,"count":1},
+		{"id":140,"count":1},
+		{"id":57,"count":0.125},
+		{"id":159,"count":1},
+		{"id":68,"count":0.75},
+		{"id":73,"count":1},
+		{"id":64,"count":0.125}
 	],
 	"preparation": [
+		"thinly slice celery stalk",
 		"Place chicken and 1/2 teaspoon salt in a small saucepan and cover with water; bring to a boil. Immediately remove from heat, cover, and let stand 15 minutes. Drain chicken and run under cold water. Cool completely; set aside. Using 2 forks, shred into bite-size pieces; reserve.",
 		"Meanwhile, use a vegetable peeler to remove outer layer of broccoli stems; discard. Continue peeling stems into long strips. In a large bowl, whisk together oil, lemon juice, and 1/4 teaspoon each salt and pepper. Add broccoli strips, Brussels sprouts, celery, hazelnuts, parsley, and reserved chicken to bowl with dressing; toss. Divide among 4 shallow bowls. Top with cheese."
 	],

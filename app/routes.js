@@ -15,7 +15,7 @@ export default (
 	<Route path="/" component={MainApp} >
 		<IndexRoute component={DefaultPage} />
 		<Route path="/meals" component={MealListPage} />
-		<Route path="/plans/:consumer/:weeks" component={ConsumerMealPlanPage} />
+		<Route path="/plans/:consumer/:plan(/:week)" component={ConsumerMealPlanPage} />
 		<Route path="/orders/:consumer" component={ConsumerOrdersPage} />
 	</Route>
 );

@@ -15,11 +15,11 @@
 	],
  	"tags":["lunch","dinner"],
 	"ingredients":[
-		"Cooking oil spray",
-		"2 slices sprouted whole-grain bread",
-		"2 slices (1.5 ounces) low-fat cheddar cheese",
-		"1/2 tomato, sliced",
-		"1/2 cup baby spinach"
+		{"id":54,"count":2},
+		{"id":41,"count":2},
+		{"id":16,"count":2},
+		{"id":31,"count":0.5},
+		{"id":12,"count":0.5}
 	],
 	"preparation": [
 		"Layer cheese, tomato and spinach between the bread slices.",

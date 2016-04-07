@@ -22,7 +22,8 @@ class Week extends React.Component {
 	var daysOfWeek = this.props.daysOfWeek;	
 	var recipes = this.props.recipes;			
 	let day = this.state.day;
-	
+	var consumer = this.props.consumer.toUpperCase()
+
     return (
 		<div className='top-of-page'>			
 			<table>
@@ -31,7 +32,7 @@ class Week extends React.Component {
 						<td colSpan='2' id='wfsbox'>Woodford's Family Services<br /> Residential Program<br /><br /> <strong>Weekly Menu Plan Sheet</strong></td>
 						<td colSpan='4'>
 						
-						<h1>{data.initials}'s Plan</h1>
+						<h1>{consumer}'s Plan</h1>
 						<h2>Week of: {data.dateRange}</h2>
 						
 						</td>
@@ -43,10 +44,10 @@ class Week extends React.Component {
 			<table>
 				<tbody>
 					<tr>
-						<th>Day<span></span>Date</th>
+						<th>Day<span></span></th>
 			
-						{data.dates.map(function(d,index){
-							return <th key={d}>{daysOfWeek[index]}<span></span>{d}</th>;
+						{daysOfWeek.map(function(d,index){
+							return <th key={index}>{d}<span></span></th>;
 						})}
 					</tr>
 

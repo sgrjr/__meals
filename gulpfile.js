@@ -65,7 +65,8 @@ gulp.task('watch',function() {
 let express;
 
 gulp.task('server', () => {
-  express = server.new(paths.destination);
+  //express = server.new(paths.destination);
+  require('./index.js');
 });
 
 gulp.task('restart', () => {

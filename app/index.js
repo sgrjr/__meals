@@ -10,6 +10,6 @@ const Routes = (
     { routes }
   </Router>
 );
- 
+
 const app = document.getElementById('app');
 ReactDOM.render(Routes, app);

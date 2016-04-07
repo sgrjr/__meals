@@ -15,14 +15,14 @@ Array.prototype.sortOn = function(key){
  
 class ShoppingList extends React.Component {
 		
-	calcaulateGroceryFromPlans(plans){
+	calcaulateGroceryFromPlans(weeks){
 		
 		const recipes = this.props.recipes;
 		const groceries = this.props.groceries;
 		
 		let ingredients = [];
 		
-		plans.map(function(plan){	
+		weeks.map(function(plan){	
 			plan.meals.map(function(category){
 				category.meals.map(function(m){
 					
@@ -67,11 +67,10 @@ class ShoppingList extends React.Component {
 		
   render() {
 
-	var shoppingList = this.calcaulateGroceryFromPlans(this.props.plans);
+	var shoppingList = this.calcaulateGroceryFromPlans(this.props.weeks);
 	shoppingList.sortOn('category');
 	var consumer = this.props.consumer.toUpperCase();		
 	var h2 = '';
-	
 	var listStyle = {listStyleType: "none"};
 	
     return (

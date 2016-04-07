@@ -38,13 +38,12 @@
 		"id": 81, "count": 0.25	}, {
 		"id": 104, "count": 0.5	}, {
 		"id": 23, "count": 0.25	}, {
-		"id": 105, "count": 0.25	}, {
-		"id": 58, "count": 1	}, {
+		"id": 20, "count": 0.25	}, {
+		"id": 49, "count": 1	}, {
 		"id": 106, "count": 0.25	}, {
-		"id": 85, "count": 2	}, {
-		"id": 47, "count": 1	}, {
-		"id": 86, "count": 4
-	}],
+		"id": 85, "count": 2	},
+		{"id": 86, "count": 4}
+		],
 	"preparation": [
 		"Preheat oven to 300 degrees.",
 		"Seed and finely chop chipotle chiles.",

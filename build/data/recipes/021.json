@@ -17,16 +17,17 @@
 	],
  	"tags":["dinner"],
 	"ingredients":[
-		"1 package (14.1 ounces) refrigerated pie pastry",
-		"2 cups diced fully cooked ham",
-		"2 cups (8 ounces) shredded sharp cheddar cheese",
-		"2 teaspoons dried minced onion",
-		"4 eggs",
-		"2 cups half-and-half cream",
-		"1/2 teaspoon salt",
-		"1/4 teaspoon pepper"
+		{"id":34,"count":1},
+		{"id":98,"count":6},
+		{"id":7,"count":8},
+		{"id":23,"count":0.0125},
+		{"id":3,"count":4},
+		{"id":29,"count":3},
+		{"id":66,"count":0.125},
+		{"id":57,"count":0.125}
 	],
 	"preparation": [
+	"mince the onion",
 		"Preheat oven to 400°. Unroll pastry sheets into two 9-in. pie plates; flute edges. Line unpricked pastry shells with a double thickness of heavy-duty foil. Fill with pie weights, dried beans or uncooked rice. Bake 10-12 minutes or until light golden brown. Remove foil and weights; bake 3-5 minutes longer or until bottom is golden brown. Cool on wire racks.",
 		"Divide ham, cheese and onion between shells. In a large bowl, whisk eggs, cream, salt and pepper until blended. Pour into shells. Cover edges loosely with foil. Bake 35-40 minutes or until a knife inserted near the center comes out clean. Let stand 5-10 minutes before cutting.", 
 		"Freeze option: Cover and freeze unbaked quiche. To use, remove from freezer 30 minutes before baking (do not thaw). Preheat oven to 350°. Place quiche on a baking sheet; cover edge loosely with foil. Bake as directed, increasing time as necessary for a knife inserted near the center to come out clean. Yield: 2 quiches (6 servings each)."

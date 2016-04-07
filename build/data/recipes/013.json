@@ -4,7 +4,7 @@
 	"imageURL": "http://d5dnlg5k9nac9.cloudfront.net/processed/thumbs/f96a810476b871a1e5716de37d58937d22074b11_r380_255.png",
 	"remoteURL": "http://www.jennieo.com/recipes/985-California-Dreamin-Turkey-Burger",
 	"servings": {
-		"yield":4,
+		"yield":1,
 		"size":"1 burger"
 		},
 	
@@ -23,11 +23,11 @@
 		"dinner"
 		],
 	"ingredients": [
-		"1 (16-ounce) package JENNIE-O Lean Turkey Burger Patties",
-		"4 slices pepper Jack cheese",
-		"4 whole grain hamburger bun, split",
-		"4 tablespoons guacamole",
-		"4 slices JENNIE-O Turkey Bacon, cooked according to package directions"
+		{"id":21, "count": 0.25},
+		{"id":16, "count": 1},
+		{"id":41, "count": 2},
+		{"id":134, "count": 0.33},
+		{"id":50, "count": 1}
 	],
 	"preparation": [
 		"Cook turkey burgers according to package directions. Always cook until well done, 165 degrees F as measured by meat thermometer. Place cheese on turkey burger during the last 5 minutes of heating to melt cheese.",

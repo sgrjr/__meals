@@ -17,7 +17,7 @@ export default class ConsumerMealPlan extends React.Component {
 		
 		if(this.props.params.consumer){
 			MealPlanActionCreators.getConsumerNotes(this.props.params.consumer);
-			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.weeks.split('-'));
+			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.plan);
 		}else{
 			
 		}
@@ -26,13 +26,9 @@ export default class ConsumerMealPlan extends React.Component {
 	}
 	
 	componentWillReceiveProps(newProps){
-		
 		if(newProps.params.consumer){
-			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.weeks.split('-'));
-		}else{
-			MealPlanActionCreators.getChapterByReference(newProps.params.book, newProps.params.chapter);
-		}
-		
+			MealPlanActionCreators.getConsumerPlan(this.props.params.consumer, this.props.params.plan);
+		}		
 	}
 	
 	_onChange(){		
@@ -55,29 +51,46 @@ export default class ConsumerMealPlan extends React.Component {
 	
   render() {
 	
-	const list_weeks = this.state.listWeeks;
-	const excerciseId = this.state.excerciseId;
-	const daysOfWeek = this.state.daysOfWeek;
-	const recipes = this.state.recipes;
+	let weeks = this.state.weeks;
+	let excerciseId = this.state.excerciseId;
+	let daysOfWeek = this.state.daysOfWeek;
+	let recipes = this.state.recipes;
+	let consumer = this.state.consumer;
+	let notes = this.state.notes;
+	let groceries = this.state.groceries;
+	let weekViewer = '';
+	
+	if(this.props.params.week && weeks.length >= 1){
+		let weekTemp = [];
+		let wks = this.props.params.week.split('-');
+		wks.map((p)=>{
+			let w = weeks[Number(p)-1];
+			weekTemp.push(w);
+		});
+		weeks = weekTemp;
+	}
+	
+	if(weeks.length >= 1){
+		
+			weekViewer = weeks.map((week)=>{
+				return (<Week 
+				recipes={recipes} 
+				key={week.dateRange} 
+				data={week}
+				daysOfWeek={daysOfWeek}
+				consumer={consumer}
+				/>);
+			});
+	}
 	
     return (
 	<div>
 		<MainNav />
-		<Note consumer={this.state.consumer} notes={this.state.notes}/>
+		<Note consumer={consumer} notes={notes}/>
 		
-		{this.state.plans.map(function(p){
-	
-			const consumer = p.initials;
-
-			return (<Week 
-				recipes={recipes} 
-				key={p.dateRange} 
-				data={p}
-				daysOfWeek={daysOfWeek} 
-				/>);
-		})}
+		{weekViewer}
 		
-		<ShoppingList consumer={this.state.consumer} plans={this.state.plans} recipes={this.state.recipes} groceries={this.state.groceries}/>
+		<ShoppingList consumer={consumer} weeks={weeks} recipes={recipes} groceries={groceries}/>
 		
 	</div>
 	);
@@ -86,20 +99,7 @@ export default class ConsumerMealPlan extends React.Component {
   
 app(state) {
 		
-/*			
-	
-	//Excercise Ideas List Begin
-	table = table + "<div class='top-of-page'></div><h1>Excercise Tips</h1>";
-	
-	table = table + "<ol>";
-	
-	lists.excerciseTips.map(function(ex){
-		table = table + "<ul>"+ ex +"</ul>";
-	});	
-	
-	table = table + "</ol>";
-	*/
-	}
+}
 
 	consumerChangeHandler(event) {
 		MealPlanActionCreators.updateConsumer(event.target.value);

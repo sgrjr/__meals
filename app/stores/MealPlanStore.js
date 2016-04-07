@@ -1,31 +1,26 @@
 import ActionTypes from '../constants/ActionTypes';
 import BaseStore from './BaseStore';
-//import books from '../data/BibleBooks';
 
 class MealPlanStore extends BaseStore {
 	
 	constructor(){
 		super();
-		this.subscribe(() => this._registerToActions.bind(this));
+		this.subscribe(() => this._registerToActions.bind(this));		
+		this._table = '';
+		this._consumer= "AW";
+		this._excerciseId = "001";
+		this._lists = {};
+		this._lists_names =['breakfasts','lunches','dinners','snacks'];
+		this._daysOfWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+		this._list_weeks = [];
+		this._recipes = [];
+		this._groceries = [];
+		this._notes = [];
+		this._url = 'data/recipes.json';
+		this._urlGrocery = 'data/shopping-list.json';
+		this._urlNotes = 'data/'+this._consumer+'/notes.json';
+		this._plan = false;
 		
-		//this._books = books.list;
-		
-			this._table = '';
-			this._consumer= "AW";
-			this._excerciseId = "001";
-			this._lists = {};
-			this._lists_names =['breakfasts','lunches','dinners','snacks'];
-			this._daysOfWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-			this._list_weeks = [];
-			this._recipes = [];
-			this._groceries = [];
-			this._notes = [];
-			this._url = 'data/recipes.json';
-			this._urlGrocery = 'data/shopping-list.json';
-			this._urlNotes = 'data/'+this._consumer+'/notes.json';
-			
-			this._plans = [];
-			
 		this.meta = {
 			name : "MealPlanStore"
 		};
@@ -44,9 +39,9 @@ class MealPlanStore extends BaseStore {
 			
 			case ActionTypes.GET_CONSUMER_PLAN:
 				this.logChange(payload);
-				this._consumer = payload.action.body.initials;
-				this._list_weeks = payload.action.weeks;
-				this._plans.push(payload.action.body);
+				this._consumer = payload.action.action.consumer;
+				this._plan = payload.action.plan;
+				this._list_weeks = payload.action.body.weeks;
 				this.emitChange();
 			  break;
 			
@@ -76,14 +71,14 @@ class MealPlanStore extends BaseStore {
 			lists : this._lists,
 			lists_names :this._lists_names,
 			daysOfWeek :this._daysOfWeek,
-			list_weeks : this._list_weeks,
+			weeks: this._list_weeks,
 			recipes : this._recipes,
 			groceries : this._groceries,
 			notes : this._notes,
 			url : this._url,
 			urlGrocery : this._urlGrocery,
 			urlNotes : this._urlNotes,
-			plans: this._plans
+			plan: this._plan
 		};
 	}
 	

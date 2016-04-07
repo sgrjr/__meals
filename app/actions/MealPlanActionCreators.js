@@ -24,12 +24,6 @@ String.prototype.ucfirst = function () {
 
 exports.default = {
 
-	/*
- keepOnlyThisChapter: (data) => {
- 	dispatch({type: ActionTypes.KEEP_AND_CLEAR_CHAPTER, action: data}); 
- },
- */
-
 	getGroceries: function getGroceries(groceriesURL) {
 
 		var promise = _RequestService2.default.getGroceries(groceriesURL);
@@ -60,17 +54,16 @@ exports.default = {
 			failure: _ActionTypes2.default.FETCH_RECIPES_FAILED
 		}, { url: url });
 	},
-	getConsumerPlan: function getConsumerPlan(consumer, weeks) {
+	getConsumerPlan: function getConsumerPlan(consumer, plan) {
 
-		for (var i = 0; i < weeks.length; i++) {
-			var promise = _RequestService2.default.getConsumerPlan(consumer, weeks[i]);
+			var promise = _RequestService2.default.getConsumerPlan(consumer, plan);
 
 			(0, _AppDispatcher.dispatchAsync)(promise, {
 				request: _ActionTypes2.default.FETCH_CONSUMER_PLAN,
 				success: _ActionTypes2.default.GET_CONSUMER_PLAN,
 				failure: _ActionTypes2.default.FETCH_CONSUMER_PLAN_FAILED
-			}, { consumer: consumer, weeks: weeks });
-		}
+			}, { consumer: consumer, plan: plan });
+
 	}
 
 };
