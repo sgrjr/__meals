@@ -64,10 +64,9 @@ gulp.task('watch',function() {
 
 let express;
 
-gulp.task('server', () => {
-  //express = server.new(paths.destination);
-  require('./index.js');
-});
+gulp.task('server', shell.task([
+  'node ./bin/www'
+]));
 
 gulp.task('restart', () => {
   express.start.bind(express)();

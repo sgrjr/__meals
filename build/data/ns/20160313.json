@@ -24,7 +24,7 @@
 		"meals":[
 			{"title":"Breakfast", "meals":[9,33,35,33,35,33,51]},
 			{"title":"Lunch", "meals":[7,70,71,72,71,73,74]},
-			{"title":"Dinner", "meals":[0,11,14,83,5,80,16]}
+			{"title":"Dinner", "meals":[0,26,14,83,5,80,16]}
 			],
 		"snacks":[95,96,97,36]
 		},		
@@ -33,7 +33,7 @@
 		"meals":[
 			{"title":"Breakfast", "meals":[25,111,111,111,111,111,56]},
 			{"title":"Lunch", "meals":[4,75,75,75,75,75,112]},
-			{"title":"Dinner", "meals":[0,15,26,6,84,17,65]}
+			{"title":"Dinner", "meals":[0,26,15,6,84,17,65]}
 			],
 		"snacks":[99,46,100,36]
 		},		
@@ -43,7 +43,7 @@
 		"meals":[
 			{"title":"Breakfast", "meals":[52,33,48,33,50,33,51]},
 			{"title":"Lunch", "meals":[3,77,65,77,78,77,11]},
-			{"title":"Dinner", "meals":[0,1,4,86,26,85,88]}
+			{"title":"Dinner", "meals":[0,1,4,86,26,102,88]}
 			],
 		"snacks":[101,42,103,36]
 		}

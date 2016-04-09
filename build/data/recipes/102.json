@@ -1,6 +1,6 @@
 {
  "id": 102,
- "title": "BLANK",
+ "title": "BBQ Pulled Pork  /w Brown Rice  /w corn",
  "imageURL": "",
  "remoteURL": "",
  "servings": {
@@ -24,8 +24,13 @@
   {"id":"calcium","amount":0},
   {"id":"iron","amount":0}
  ],
- 	"tags":["snack"],
-	"ingredients":[],
+"tags":["dinner"],
+"ingredients":[
+	  {"id":17,"count":1},
+	  {"id":150,"count":3},
+	  {"id":119,"count":1},
+	  {"id":120,"count":1}
+ ],
  "preparation": [
   ""
  ],

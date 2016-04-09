@@ -1,6 +1,6 @@
 {
  "id": 57,
- "title": "2 Soft Tacos /w eggs | Cucumbers /w Hummus",
+ "title": "2 Tortillas /w eggs | Cucumbers /w Hummus",
  "imageURL": "",
  "remoteURL": "",
  "servings": {
@@ -26,7 +26,10 @@
  ],
  	"tags":["dinner"],
 	"ingredients":[
-  "2 Soft Tacos /w eggs | Cucumbers /w Hummus"
+  {"id":85,"count":1},
+  {"id":3,"count":2},
+  {"id":30,"count":0.5},
+  {"id":40,"count":4}
  ],
  "preparation": [
   ""

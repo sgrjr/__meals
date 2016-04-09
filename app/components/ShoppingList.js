@@ -14,7 +14,7 @@ Array.prototype.sortOn = function(key){
 };
  
 class ShoppingList extends React.Component {
-		
+	
 	calcaulateGroceryFromPlans(weeks){
 		
 		const recipes = this.props.recipes;
@@ -61,6 +61,49 @@ class ShoppingList extends React.Component {
 					}
 				});
 			});	
+			
+			////////////////
+			
+			plan.snacks.map(function(s){
+					let recipe = recipes[s];
+					let timesAWeek = 3;
+					if(recipe){
+						recipe.ingredients.map(function(ing){
+	
+							if(ingredients[ing.id]){
+								ingredients[ing.id].count = ingredients[ing.id].count + ing.count*timesAWeek;
+							}else{
+								let details = Helpers.getFromJSON(groceries,ing.id);
+								
+								if(!details){
+									
+									let newIndex = Math.floor((Math.random() * 10000) + 1);;
+									
+									console.log("meal: ",recipe,details,ing, newIndex);
+									ingredients[newIndex] = {
+										"id":newIndex,
+										"unit":"",
+										"description":ing,
+										"category":"zz_misssing-info",
+										"count":timesAWeek
+										};
+
+								}else{
+								
+									let count = ing.count;
+									ingredients[ing.id] = details;
+									ingredients[ing.id].count = count*timesAWeek;
+								}
+							}
+									
+						});
+					}else{
+						console.log('ShoppingList.js Line#44: Error on This Recipe Id: ',m);
+					}
+
+			});	
+			///////////////
+			
 		});
 		return ingredients;
 	}		

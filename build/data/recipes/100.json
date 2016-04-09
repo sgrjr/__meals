@@ -26,8 +26,9 @@
  ],
  	"tags":["snack"],
 	"ingredients":[
-	"Celery",
-	"Ranch Dressing"],
+		{"id":68,"count":1},
+		{"id":47,"count":3}
+	],
  "preparation": [
   ""
  ],

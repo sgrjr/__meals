@@ -26,7 +26,7 @@
  ],
  	"tags":["snack"],
 	"ingredients":[
-  "1 orange 2-5/8 inch diameter"
+  {"id":6,"count":1}
  ],
  "preparation": [
   "Peal and eat raw.",

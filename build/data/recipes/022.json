@@ -27,7 +27,7 @@
  	"tags":["dinner"],
 	"ingredients":[
 		{"id":49,"count":1},
-		{"id":152,"count":1},
+		{"id":23,"count":1},
 		{"id":12,"count":2},
 		{"id":3,"count":5},
 		{"id":7,"count":24},

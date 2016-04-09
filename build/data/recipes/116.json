@@ -27,7 +27,7 @@
 "tags":["lunch","dinner"],
 "ingredients": [
 	{"id":41,"count":2},
-	{"id":77,"count":1},
+	{"id":9,"count":1},
 	{"id":16,"count": 1}
 ],
  "preparation": [
