@@ -1,6 +1,6 @@
 {
  "id": 51,
- "title": "2 Eggs | 1 orange | Cottage Cheese",
+ "title": "2 Eggs | 1 orange | Yogurt",
  "imageURL": "",
  "remoteURL": "",
  "servings": {
@@ -28,7 +28,7 @@
 	"ingredients":[
   		{"id":3,"count":2},
 		{"id":6,"count":1},
-		{"id":136,"count":1}
+		{"id":5,"count":1}
  ],
  "preparation": [
   ""

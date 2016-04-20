@@ -6,7 +6,6 @@ import $ from 'jquery';
 import Helpers from '../helpers/helpers.js';
 import MealPlanStore from '../stores/MealPlanStore';
 import MealPlanActionCreators from '../actions/MealPlanActionCreators';
-import MainNav from './MainNav';
 		
 export default class ConsumerMealPlan extends React.Component {
  
@@ -59,18 +58,9 @@ export default class ConsumerMealPlan extends React.Component {
 	let notes = this.state.notes;
 	let groceries = this.state.groceries;
 	let weekViewer = '';
+	console.log(weeks);
 	
-	if(this.props.params.week && weeks.length >= 1){
-		let weekTemp = [];
-		let wks = this.props.params.week.split('-');
-		wks.map((p)=>{
-			let w = weeks[Number(p)-1];
-			weekTemp.push(w);
-		});
-		weeks = weekTemp;
-	}
-	
-	if(weeks.length >= 1){
+	if(weeks && weeks.length >= 1){
 		
 			weekViewer = weeks.map((week)=>{
 				return (<Week 
@@ -81,11 +71,12 @@ export default class ConsumerMealPlan extends React.Component {
 				consumer={consumer}
 				/>);
 			});
+			
+			weeks = weekViewer;
 	}
 	
     return (
 	<div>
-		<MainNav />
 		<Note consumer={consumer} notes={notes}/>
 		
 		{weekViewer}

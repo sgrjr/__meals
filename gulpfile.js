@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	sourcemaps = require('gulp-sourcemaps'),
 	uglify = require('gulp-uglify'),
-	server = require('gulp-live-server'),
+	server = require('gulp-express'),
 	shell = require('gulp-shell'),
 	run	= require('run-sequence');
 
@@ -17,7 +17,7 @@ const paths = {
   destination: './build'
 }
 	
-gulp.task('default', ['copyHtml','es6','build-css','server','watch']);
+gulp.task('default', ['copyHtml','es6','build-css','watch']);
 	
 ///////////////////////////////////////////////////////////////////	
 	
@@ -55,20 +55,31 @@ gulp.task('build-js', function() {
 });
 
 gulp.task('watch',function() {
-	gulp.watch('./app/**/*.js',['es6']);
+	gulp.watch('./app/**/*.js',['es6','restart']);
 	gulp.watch('./app/assets/*.html',['copyHtml']);
 	gulp.watch('./app/assets/scss/**/*.scss', ['build-css']);
 });
  
-///////////////////////////////////////
-
-let express;
-
-gulp.task('server', shell.task([
-  'node ./bin/www'
-]));
-
-gulp.task('restart', () => {
-  express.start.bind(express)();
-});
 ///////////////////////////////////
+
+gulp.task('server', function () {
+    // Start the server at the beginning of the task 
+    server.run(['app/app.js']);
+ 
+    // Restart the server when file changes 
+    gulp.watch(['app/**/*.html'], server.notify);
+    gulp.watch(['app/styles/**/*.scss'], ['styles:scss']);
+    //gulp.watch(['{.tmp,app}/styles/**/*.css'], ['styles:css', server.notify]); 
+    //Event object won't pass down to gulp.watch's callback if there's more than one of them. 
+    //So the correct way to use server.notify is as following: 
+    gulp.watch(['{.tmp,app}/styles/**/*.css'], function(event){
+        gulp.run('styles:css');
+        server.notify(event);
+        //pipe support is added for server.notify since v0.1.5, 
+        //see https://github.com/gimm/gulp-express#servernotifyevent 
+    });
+ 
+    gulp.watch(['app/scripts/**/*.js'], ['jshint']);
+    gulp.watch(['app/images/**/*'], server.notify);
+    gulp.watch(['app.js', 'routes/**/*.js'], [server.run]);
+});

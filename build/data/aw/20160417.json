@@ -31,7 +31,7 @@
 		{
 		"dateRange": "May 8 to May 14",
 		"meals":[
-			{"title":"Breakfast", "meals":[25,111,111,111,111,110,56]},
+			{"title":"Breakfast", "meals":[25,47,47,47,47,110,56]},
 			{"title":"Lunch", "meals":[4,75,75,75,75,75,112]},
 			{"title":"Dinner", "meals":[0,15,26,6,84,17,65]}
 			],

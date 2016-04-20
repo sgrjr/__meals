@@ -1,6 +1,6 @@
 {
  "id": 52,
- "title": "2 Pancakes | Cottage Cheese | Banana",
+ "title": "2 Pancakes | Yogurt | Banana",
  "imageURL": "",
  "remoteURL": "",
  "servings": {
@@ -26,11 +26,11 @@
  ],
  	"tags":["breakfast"],
 	"ingredients":[
-		{"id":106,"count":1},
+		{"id":137,"count":0.5},
+		{"id":70,"count":0.33},
+		{"id":5,"count":1},
 		{"id":2,"count":1}
  ],
- "preparation": [
-  ""
- ],
- "note": "add 2 pancakes to ingredient list"
+ "preparation": [],
+ "note": ""
 }

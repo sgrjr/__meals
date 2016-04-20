@@ -24,6 +24,8 @@ class Week extends React.Component {
 	let day = this.state.day;
 	var consumer = this.props.consumer.toUpperCase()
 
+	
+	
     return (
 		<div className='top-of-page'>			
 			<table>

@@ -1,4 +1,5 @@
 import React from 'react';
+import MainNav from './MainNav';
 
 class App extends React.Component {
 
@@ -10,6 +11,7 @@ class App extends React.Component {
 	
     return (
 	<div>
+		<MainNav />
 		{this.props.children}
 	</div>
 	);
