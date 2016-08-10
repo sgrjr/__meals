@@ -1,0 +1,43 @@
+{
+	"id": 10,
+	"title": "Black Pepper and Molasses Pulled Chicken Sandwiches",
+	"imageURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/09/11/chicken-sandwiches-ck-1932638-x.jpg?itok=zozY2IxA",
+	"remoteURL": "http://www.myrecipes.com/recipe/black-pepper-molasses-pulled-chicken-sandwiches",
+	"servings": {"yield":1,"size":"1 sandwich"},
+	"nutrition": [
+		{"id": "calories","amount":294},
+		{"id": "carbohydrates","amount":35.6},
+		{"id": "fat","amount": 6.5},
+		{"id": "protein","amount": 22},
+		{"id": "sodium","amount": 698},
+		{"id": "fiber","amount": 1.8},
+		{"id": "cholesterol","amount": 71},
+		{"id": "calcium","amount": 105},
+		{"id": "iron","amount": 3.1}
+	],
+		"tags":[
+		"dinner"
+		],
+
+	"ingredients": [
+		{"id":88,"count":2},
+		{"id":20,"count":0.0125},
+		{"id":60,"count":1},
+		{"id":165,"count":0.5},
+		{"id":38,"count":0.33},
+		{"id":142,"count":0.25},
+		{"id":57,"count":0.125},
+		{"id":129,"count":0.125},
+		{"id":56,"count":1},
+		{"id":41,"count":2},
+		{"id":166,"count":0.25}
+	],
+	"preparation": [
+		"Combine first 9 ingredients in a medium saucepan; bring to a boil.",
+		"Reduce heat to medium-low; cover and cook, stirring occasionally, 23 minutes or until chicken is done and tender.",
+		"Remove from heat; shred with 2 forks to measure 2 cups meat.",
+		"Place 1/2 cup chicken on bottom half of each roll.",
+		"Top each with 3 pickles and top half of roll."
+	],
+	"note": ""
+}

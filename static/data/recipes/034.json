@@ -1,0 +1,35 @@
+{
+	"id": 34,
+	"title": "Two Eggs Scrambled W/ Toast & 1/2 Banana Recipe",
+	"imageURL": "http://i0.wp.com/chasetheredgrape.files.wordpress.com/2014/02/dsc04296.jpg",
+	"remoteURL": "http://www.caloriecount.com/one-egg-scrambled-toast-1-recipe-r236405",
+	"servings": {
+		"yield":1,
+		"size":"160 grams"
+		},
+	
+	"nutrition": [
+		{"id":"calories","amount":381},
+		{"id":"carbohydrates","amount":0},
+		{"id":"fat","amount":19.8},
+		{"id":"protein","amount":14},
+		{"id":"saturatedfat","amount":6.3},
+		{"id":"sodium","amount":531},
+		{"id":"fiber","amount":5.5},
+		{"id":"cholesterol","amount":179},
+		{"id":"potassium","amount":271},
+		{"id":"sugars","amount":11.6}
+	],
+ 	"tags":["breakfast"],
+	"ingredients":[
+		{"id":3,"count":2},
+		{"id":16,"count":1},
+		{"id":49,"count":0.5},
+		{"id":41,"count":1},
+		{"id":2,"count":0.5}
+	],
+	"preparation": [
+		"Scramble two eggs, microwave for 30 seconds, add oil and scramble again. Add one slice of american single and nuke for another 20 seconds. Scramble once more and eat."
+	],
+	"note": ""
+}

@@ -1,0 +1,35 @@
+{
+    "id": 9,
+    "title": "Krusteaz Blueberry Pancakes",
+	"imageURL":"http://images.media-allrecipes.com/userphotos/600x600/969627.jpg",
+	"remoteURL":"",
+    	"servings": {"yield":1,"size":"4 pancakes"},
+	"nutrition": [
+        {"id": "calories","amount":220},
+		{"id": "carbohydrates","amount":48},
+		{"id": "fat","amount":2},
+		{"id": "protein","amount":3},
+		{"id": "saturatedfat","amount":1},
+		{"id": "sodium","amount":520},
+		{"id": "fiber","amount":1},
+        {"id": "cholesterol","amount":0},
+		{"id": "calcium","amount":100},
+		{"id": "iron","amount":1.8}
+    ],
+	"tags":[
+		"breakfast",
+		"dinner"
+		],
+	"ingredients":[
+		{"id":137,"count":0.5},
+		{"id":70,"count":0.33}
+	],
+	"preparation":[
+		"Heat pancake griddle to 375 degrees Fahrenheit (medium heat).",
+		"Lightly grease griddle",
+		"Stir pancake mix and water (use Warm water and not cold) together with a wire whisk. Batter will be slightly lumpy. (Do not overmix.) Let batter stand 2 minutes.",
+		"Pour slightly less than 1/4 cup of batter per pancake onto the griddle.",
+		"Cooke pancakes 1 minute to 1 minute and 15 seconds per side, or until golden brown, turning only once."
+	],
+	"note:":""
+}

@@ -1,0 +1,34 @@
+{
+	"id": 122,
+	"title": "Bean Quesadillas (low acid)",
+	"imageURL": "http://images.media-allrecipes.com/userphotos/600x600/1112216.jpg",
+	"remoteURL": "http://allrecipes.com/recipe/14144/bean-quesadillas/",
+	"servings": {
+		"yield": 1,
+		"size": "1 Quesadillas"
+	},
+	"nutrition": [
+		{"id": "calories","amount": 504}		
+		],
+	"tags": [
+		"dinner"
+	],
+	"ingredients": [
+	{"id": 49, "count": 1.25}, 
+	{"id": 23, "count": 0.125}, 
+	{"id": 84, "count": 0.125}, 
+	{"id": 141 , "count": 0.125}, 
+	{"id": 22, "count":0.125 }, 
+	{"id": 120, "count": 0.3}, 
+	{"id": 85, "count": 2}, 
+	{"id":7, "count": 3}
+		],
+	"preparation": [
+		"onion, finely diced , clove of garlic minced, can black beans, rinsed and drained, bell pepper chopped",
+		"Heat 1 tablespoon oil in a skillet over medium heat, and saute the onion and garlic until soft.",
+		"Mix in beans, bell pepper, and corn; cook until heated through.",
+		"Spread 1 tortillas with equal amounts of the bean and vegetable mixture. Sprinkle with equal amounts of the Cheddar cheese, and top with the remaining tortilla to form quesadillas.",
+		"Heat 1/4 cup oil in a large skillet over medium-high heat. Place quesadillas in the skillet and cook, turning once, until cheese is melted and both sides are lightly browned."
+	],
+	"note": "add carrots to nutrition and ingredient lists also update nutrition to reflect broth sub for beer"
+}

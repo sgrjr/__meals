@@ -1,0 +1,49 @@
+{
+ "id": 74,
+ "title": "Turkey Burger  | small salad",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":""
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+"tags":["dinner"],
+"ingredients":[  
+  	{"id":23,"count":0.3},
+	{"id":21,"count":0.25},
+	{"id":66,"count":0.125},
+	{"id":57,"count":0.125},
+	{"id":54,"count":2},
+	{"id":41,"count":2},
+	{"id":46,"count":1},
+	{"id":62,"count":2.5},
+	{"id":31,"count":3},
+	{"id":60,"count":1},
+	{"id":31,"count":0.5},
+	{"id":30,"count":0.25},
+	{"id":76,"count":0.125}
+ ],
+"preparation": [
+	"Shape turkey mixture into a 1/2-inch-thick patty. Heat a large grill pan over medium-high heat. Coat pan with cooking spray. Add patty to pan; cook 3-5 minutes on each side.",
+	"Spread 1 tablespoon mayonnaise over bread. Top burger with 1 lettuce leaf, 1 patty, and 2 tomato slices. Spread 1 1/2 teaspoons mustard over top slice of bread, then top burgers.",
+	"Toss remainder lettuce, tomatoes and cucumber together for salad. Top with vinaigrette."
+ ],
+ "note": ""
+}

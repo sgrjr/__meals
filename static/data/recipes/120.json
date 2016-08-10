@@ -1,0 +1,18 @@
+{
+ "id": 120,
+ "title": "Hummus /w tortilla chips",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":""
+  },
+ "nutrition": [],
+ 	"tags":["snack"],
+	"ingredients":[
+	  {"id":40,"count":3},
+	  {"id":149,"count":1}
+ ],
+ "preparation": [],
+ "note": ""
+}

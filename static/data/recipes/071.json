@@ -1,0 +1,40 @@
+{
+ "id": 71,
+ "title": "BLT Turkey Wrap  | peas",
+ "imageURL": "",
+ "remoteURL": "",
+ "servings": {
+  "yield":1,
+  "size":""
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+"tags":["lunch"],
+"ingredients":[
+	{"id":15,"count":1},
+	{"id":50,"count":3},
+	{"id":31,"count":0.25},
+	{"id":62,"count":1},
+	{"id":46,"count":1},
+	{"id":121,"count":1}
+ ],
+ "preparation": [
+  ""
+ ],
+ "note": ""
+}

@@ -1,0 +1,36 @@
+{
+ "id": 46,
+ "title": "Orange",
+ "imageURL": "http://static.caloriecount.about.com/images/medium/oranges-157535.jpg",
+ "remoteURL": "http://www.caloriecount.com/calories-oranges-i9200",
+ "servings": {
+  "yield":1,
+  "size":"1 orange 2-5/8 inch diameter"
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+ 	"tags":["snack"],
+	"ingredients":[
+  {"id":6,"count":1}
+ ],
+ "preparation": [
+  "Peal and eat raw.",
+  "Nutrition Facts<br>Serving Size 1 fruit (2-5/8 in dia) (131 g)<br>Per Serving % Daily Value*<br>Calories 62<br><br>Calories from Fat 1<br><br>Total Fat 0.2g 0%<br><br>Saturated Fat 0g 0%<br><br>Polyunsaturated Fat 0g<br><br>Monounsaturated Fat 0g<br><br>Cholesterol 0mg 0%<br><br>Sodium 0mg 0%<br><br>Potassium 237.11mg 7%<br><br>Carbohydrates 15.4g 5%<br><br>Dietary Fiber 3.1g 13%<br><br>Sugars 12.2g<br><br>Protein 1.2g<br><br>Vitamin A 6% · Vitamin C 116%<br>Calcium 5% · Iron 1%"
+ ],
+ "note": "GOOD POINTS: Very low in saturated fat, No cholesterol, No sodium, Very high in dietary fiber, High in potassium, High in thiamin, Very high in vitamin C; BAD POINTS: Very high in sugar"
+}

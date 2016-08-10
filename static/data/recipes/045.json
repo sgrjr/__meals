@@ -1,0 +1,35 @@
+{
+ "id": 45,
+ "title": "Medium Red Apple",
+ "imageURL": "",
+ "remoteURL": "http://www.caloriecount.com/calories-apple-i9003",
+ "servings": {
+  "yield":1,
+  "size":"1 3-1/4 inch diameter apple"
+  },
+ 
+ "nutrition": [
+  {"id":"calories","amount":0},
+  {"id":"carbohydrates","amount":0},
+  {"id":"fat","amount":0},
+  {"id":"protein","amount":0},
+  {"id":"saturatedfat","amount":0},
+  {"id":"sodium","amount":0},
+  {"id":"fiber","amount":0},
+  {"id":"sugars","amount":0},
+  {"id":"cholesterol","amount":0},
+  {"id":"potasssium","amount":0},
+  {"id":"vitamina","amount":0},
+  {"id":"vitaminc","amount":0},
+  {"id":"calcium","amount":0},
+  {"id":"iron","amount":0}
+ ],
+ 	"tags":["snack"],
+	"ingredients":[
+  "1 3-1/4 inch diameter apple"
+ ],
+ "preparation": [
+  "Eat raw."
+ ],
+ "note": "Serving Size 1 apple (large, 3-1/4in diameter (223 g)<br>Per Serving % Daily Value*<br>Calories 116<br><br>Calories from Fat 4<br><br>Total Fat 0.4g 1%<br><br>Saturated Fat 0g 0%<br><br>Polyunsaturated Fat 0g<br><br>Monounsaturated Fat 0g<br><br>Cholesterol 0mg 0%<br><br>Sodium 2mg 0%<br><br>Potassium 238.61mg 7%<br><br>Carbohydrates 30.8g 10%<br><br>Dietary Fiber 5.4g 22%<br><br>Sugars 23.2g<br><br>Protein 0.6g<br><br>Vitamin A 0% · Vitamin C 28%<br>Calcium 0% · Iron 6%"
+}

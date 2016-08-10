@@ -1,0 +1,39 @@
+{
+	"id": 18,
+	"title": "BBQ Chicken Pizza",
+	"imageURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/bbq-chicken-pizza-ck.jpg?itok=fZbkO060",
+	"remoteURL": "http://www.myrecipes.com/recipe/bbq-chicken-pizza",
+	"servings": {
+		"yield":6,
+		"size":"1 slice"
+		},
+	
+	"nutrition": [
+		{"id":"calories","amount":300},
+		{"id":"carbohydrates","amount":35.2},
+		{"id":"fat","amount":8.5},
+		{"id":"protein","amount":21.3},
+		{"id":"saturatedfat","amount":3.9},
+		{"id":"sodium","amount":622},
+		{"id":"fiber","amount":1.2},
+		{"id":"cholesterol","amount":48},
+		{"id":"calcium","amount":247},
+		{"id":"iron","amount":1.7}		
+	],
+	"tags":[
+		"dinner"
+		],
+	"ingredients": [
+		{"id": 163, "count": 1},
+		{"id": 31, "count": 2},
+		{"id": 56, "count": 1},
+		{"id": 7, "count": 0.75},
+		{"id": 23, "count": 0.75}
+	],
+	"preparation": [
+		"Preheat oven to 450 degrees.",
+		"Place crust on a baking sheet. Bake at 450 degrees for 3 minutes. Remove from oven; spread chutney over crust, leaving a 1/2-inch border.",
+		"Top chutney with chicken. Sprinkle diced tomato, cheese, and green onions evenly over chicken. Bake at 450 degrees for 9 minutes or until cheese melts. Cut pizza into 6 wedges."
+	],
+	"note": "Note: If you can't find tomato chutney, make your own. Combine 2 cups diced plum tomato, 3 tablespoons brown sugar, 3 tablespoons cider vinegar, 1/8 teaspoon Jamaicañ jerk seasoning, and 1 minced garlic clove in a small saucepan; bring to a boil. Reduce heat to medium; cook 20 minutes or untril thickened. SOO great! Tomato chutney sauce is AMAZING! an absolute must!I did not have any jerk seasoning so I substituted a few splashes of Franks Hot Sauce. I found that I didn't have enough sauce so I doubled the recipe for the sauce and it was perfect!"
+}
